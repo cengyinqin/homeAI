@@ -1,0 +1,104 @@
+{
+  "schema_version": 4,
+  "room_type_en": "living room",
+  "shape_en": "rectangular, wider than deep",
+  "ceiling_en": "flat plain white ceiling at standard 2.8 m height, no beams or dropped sections",
+  "walls_en": "flat painted walls, one continuous plane per side, white skirting at floor and white cornice at ceiling",
+  "floor_en": "large-format grey marble-look polished tiles laid in a square grid, continuous glossy floor plane, no steps or level changes",
+  "geometry": {
+    "room_type_en": "living room",
+    "shape_en": "rectangular, wider than deep",
+    "width_m": 4.0,
+    "depth_m": 3.5,
+    "ceiling_m": 2.8,
+    "floor_level_changes": false
+  },
+  "openings": [
+    {
+      "side": "left",
+      "type": "open doorway",
+      "width_m": 0.9,
+      "height_m": 2.05,
+      "sill_m": 0.0,
+      "center_offset_fraction": 0.5,
+      "detail": "no door leaf, dark threshold strip, leads to corridor"
+    },
+    {
+      "side": "front-right",
+      "type": "floor-to-ceiling sliding glass door",
+      "width_m": 2.2,
+      "height_m": 2.5,
+      "sill_m": 0.0,
+      "center_offset_fraction": 0.55,
+      "detail": "black slim frame, two sliding leaves, fixed transom window above, opens to balcony with metal railing"
+    }
+  ],
+  "openings_total": 2,
+  "camera": {
+    "height_m": 1.5,
+    "distance_to_far_wall_m": 3.5,
+    "lens_mm": 24.0,
+    "tilt_deg": -2.0,
+    "horizon_fraction": 0.45,
+    "perspective": "two-point, angled toward the front-right corner"
+  },
+  "framing": {
+    "front_wall_and_opening_span": {
+      "from_x": 0.06,
+      "to_x": 0.61
+    },
+    "right_wall_span": {
+      "from_x": 0.61,
+      "to_x": 1.0
+    },
+    "left_wall_span": {
+      "from_x": 0.0,
+      "to_x": 0.07
+    },
+    "ceiling_bottom_y": 0.38,
+    "floor_top_y": 0.72,
+    "opening_width_over_wall_width": 0.7
+  },
+  "framing_valid": true,
+  "framing_note": "",
+  "fixed_features": [
+    {
+      "key": "ceiling cornice",
+      "detail": "plain white plaster cornice running along all wall-ceiling junctions"
+    },
+    {
+      "key": "skirting board",
+      "detail": "white painted skirting, about 90 mm high, along all walls"
+    },
+    {
+      "key": "wall access panel",
+      "detail": "flush white rectangular cover panel set low into the far wall"
+    },
+    {
+      "key": "sliding door frame",
+      "detail": "black aluminium frame with two sliding leaves and a fixed transom above"
+    }
+  ],
+  "camera_en": "camera at 1.5 m height, two-point perspective angled toward the front-right corner, slight downward tilt, 24 mm equivalent wide lens",
+  "light_en": "main daylight from the front-right sliding glass door and balcony, soft fill from a single ceiling point",
+  "structure_en": "Living room, rectangular, wider than deep, 4 m x 3.5 m; ceiling 2.8 m; floor: large-format grey marble-look polished tiles laid in a square grid, continuous glossy floor plane, no steps or level changes. Left open doorway 0.9 x 2.05 m, sill 0 m, 50% along the wall. Front-right floor-to-ceiling sliding glass door 2.2 x 2.5 m, sill 0 m, 55% along the wall. Camera 1.5 m high, 3.5 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 2; do not add or remove any opening. Opening proportion: the opening covers about half the wall with solid wall on both sides. Fixed features that stay: ceiling cornice: plain white plaster cornice running along all wall-ceiling junctions; skirting board: white painted skirting, about 90 mm high, along all walls; wall access panel: flush white rectangular cover panel set low into the far wall; sliding door frame: black aluminium frame with two sliding leaves and a fixed transom above.",
+  "structure_en_model": "The living room is a rectangular shell, wider than deep, with a flat plain white ceiling at about 2.8 m and no beams. Flat painted walls form one continuous plane per side, finished with white plaster cornice above and white skirting below. The floor is a single glossy plane of large-format grey marble-look tiles in a square grid, with no level changes. The far wall carries a low flush access panel. The left wall has an open leafless doorway with a dark threshold leading to a corridor. The right wall is largely glazed by a black-framed floor-to-ceiling sliding door with a fixed transom above, opening onto a railed balcony. The camera sits at 1.5 m in two-point perspective toward the front-right corner.",
+  "immovable_zh": [
+    "左墙门洞通向走廊",
+    "右前落地推拉门带亮窗",
+    "平顶2.8米无吊顶",
+    "灰色大理石纹地砖",
+    "白色石膏线与踢脚线"
+  ],
+  "movable_zh": [
+    "布艺沙发",
+    "沙发花纹盖布",
+    "天花灯泡",
+    "阳台杂物袋"
+  ],
+  "upload_id": "10a81a18ed0e477abaea3dbce34c6a26",
+  "preview_url": "/remodel/uploads/10a81a18ed0e477abaea3dbce34c6a26.jpg",
+  "model": "qwen4-max",
+  "vision_calls": 1,
+  "analyzed_at": "2026-11-17T01:00:19Z"
+}

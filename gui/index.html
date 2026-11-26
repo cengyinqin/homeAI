@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>HOMAI 灵感库 · 本地工作台</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand" aria-label="HOMAI 灵感库">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </span>
+        <div class="brand-copy">
+          <h1>HOMAI 灵感库</h1>
+          <p><span id="total-count">—</span> 张空间图像</p>
+        </div>
+      </div>
+
+      <nav class="mode-nav" aria-label="主导航">
+        <button class="mode-tab is-active" type="button" data-view="gallery" aria-pressed="true">图库</button>
+        <button class="mode-tab" type="button" data-view="remodel" aria-pressed="false">老房改造</button>
+        <button id="settings-open" class="nav-settings" type="button"
+                aria-haspopup="dialog" aria-controls="credentials-dialog">设置</button>
+      </nav>
+
+      <div class="toolbar">
+        <label class="search-box" for="gallery-search">
+          <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true">
+            <circle cx="8.5" cy="8.5" r="5.25"></circle>
+            <path d="m12.5 12.5 4 4"></path>
+          </svg>
+          <input id="gallery-search" type="search" autocomplete="off" spellcheck="false"
+                 placeholder="搜索名称、风格、色板或家具">
+          <kbd>/</kbd>
+        </label>
+
+        <div id="category-chips" class="category-chips" role="group" aria-label="按分类筛选"></div>
+
+        <div id="style-picker" class="style-picker">
+          <button id="style-button" class="filter-button" type="button"
+                  aria-haspopup="true" aria-expanded="false" aria-controls="style-menu">
+            <span id="style-label">全部风格</span>
+            <span id="style-selected-count" class="selected-count" hidden>0</span>
+            <svg class="chevron" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="m4 6 4 4 4-4"></path>
+            </svg>
+          </button>
+          <div id="style-menu" class="style-menu" hidden>
+            <div class="style-menu-head">
+              <span>按主风格筛选</span>
+              <button id="style-clear" class="text-button" type="button">清除</button>
+            </div>
+            <div id="style-options" class="style-options"></div>
+          </div>
+        </div>
+
+        <button id="generated-toggle" class="toggle-button" type="button" aria-pressed="false">
+          <span class="toggle-track" aria-hidden="true"><span></span></span>
+          只看已出图
+        </button>
+
+        <a id="export-button" class="filter-button export-button" href="/api/export.csv" download>
+          导出 CSV
+        </a>
+      </div>
+
+      <div class="header-stats" aria-label="统计">
+        <div class="stat">
+          <strong id="generated-count">—</strong>
+          <span>已出图</span>
+        </div>
+        <div class="stat">
+          <strong id="edited-count">—</strong>
+          <span>已编辑</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="browser-panel" aria-label="图库浏览">
+        <div id="credentials-banner" class="credentials-banner" role="status" hidden>
+          <div class="credentials-banner-copy">
+            <strong>还没配置模型 Key，点右上「设置」填一个</strong>
+            <span>Key 会保存到本项目的 credentials.json，保存后下一次调用立即生效。</span>
+          </div>
+          <button id="credentials-banner-open" class="filter-button credentials-banner-action"
+                  type="button" aria-haspopup="dialog" aria-controls="credentials-dialog">打开设置</button>
+        </div>
+        <div class="browser-bar">
+          <p id="result-summary" class="result-summary" aria-live="polite">正在加载图库…</p>
+          <label class="sort-control">
+            <span>排序</span>
+            <select id="sort-select">
+              <option value="style">按风格</option>
+              <option value="name">按名称</option>
+            </select>
+          </label>
+        </div>
+        <div id="gallery" class="gallery" aria-busy="true"></div>
+      </section>
+
+      <aside id="detail-panel" class="detail-panel" aria-label="条目详情">
+        <div class="detail-placeholder">
+          <span class="placeholder-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <h2>从图库中选择一张图片</h2>
+          <p>查看空间拆解、色板与提示词，并在右侧直接生成新图。</p>
+          <p class="placeholder-keys"><kbd>j</kbd><kbd>k</kbd> 可前后切换</p>
+        </div>
+      </aside>
+      <button id="detail-close" class="detail-close" type="button"
+              aria-controls="detail-panel" aria-label="关闭详情并返回图库">
+        <span class="detail-close-arrow" aria-hidden="true">←</span>
+        <span>返回图库</span>
+      </button>
+    </main>
+
+    <main id="remodel-view" class="remodel-view" hidden>
+
+      <section id="rm-list-view" class="rm-list-page" aria-labelledby="rm-list-title">
+        <header class="rm-list-head">
+          <div>
+            <p class="rm-eyebrow">REMODEL · 老房改造</p>
+            <h2 id="rm-list-title">改造项目</h2>
+            <p class="rm-list-sub"><span id="rm-item-count">—</span> 个项目 · 每次生成都会保留为独立版本</p>
+          </div>
+          <button id="rm-new-item" class="rm-button primary" type="button">新建改造项目</button>
+        </header>
+        <p id="rm-list-error" class="rm-inline-error" role="alert" hidden></p>
+        <div id="rm-list-skeleton" class="rm-item-grid" aria-hidden="true">
+          <div class="rm-skeleton-card"><span class="rm-skeleton rm-skeleton-cover"></span><span class="rm-skeleton rm-skeleton-line"></span><span class="rm-skeleton rm-skeleton-line short"></span></div>
+          <div class="rm-skeleton-card"><span class="rm-skeleton rm-skeleton-cover"></span><span class="rm-skeleton rm-skeleton-line"></span><span class="rm-skeleton rm-skeleton-line short"></span></div>
+          <div class="rm-skeleton-card"><span class="rm-skeleton rm-skeleton-cover"></span><span class="rm-skeleton rm-skeleton-line"></span><span class="rm-skeleton rm-skeleton-line short"></span></div>
+          <div class="rm-skeleton-card"><span class="rm-skeleton rm-skeleton-cover"></span><span class="rm-skeleton rm-skeleton-line"></span><span class="rm-skeleton rm-skeleton-line short"></span></div>
+          <div class="rm-skeleton-card"><span class="rm-skeleton rm-skeleton-cover"></span><span class="rm-skeleton rm-skeleton-line"></span><span class="rm-skeleton rm-skeleton-line short"></span></div>
+          <div class="rm-skeleton-card"><span class="rm-skeleton rm-skeleton-cover"></span><span class="rm-skeleton rm-skeleton-line"></span><span class="rm-skeleton rm-skeleton-line short"></span></div>
+        </div>
+        <div id="rm-item-grid" class="rm-item-grid" aria-live="polite"></div>
+        <div id="rm-list-more" class="rm-list-more" hidden>
+          <button id="rm-load-more" class="rm-button secondary" type="button">加载更多</button>
+        </div>
+        <div id="rm-list-empty" class="rm-empty-state" hidden>
+          <span class="rm-empty-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <h3>还没有改造项目</h3>
+          <p>上传一张老房照片，先分析不可改的建筑结构，再选择风格生成改造方案。每一次生成都会保留成独立版本，旧图永远不会被覆盖。</p>
+          <button id="rm-empty-new" class="rm-button primary" type="button">新建第一个项目</button>
+        </div>
+      </section>
+
+      <section id="rm-detail-view" class="rm-detail-page" hidden aria-labelledby="rm-detail-name">
+        <a id="rm-back" class="rm-back" href="#remodel">← 返回项目列表</a>
+        <header class="rm-detail-head">
+          <div>
+            <p class="rm-eyebrow">PROJECT · 改造项目</p>
+            <h2 id="rm-detail-name">—</h2>
+            <p id="rm-detail-meta" class="rm-detail-meta"></p>
+          </div>
+          <div class="rm-detail-head-actions">
+            <button id="rm-refresh-item" class="rm-button ghost" type="button">刷新</button>
+            <button id="rm-rename-item" class="rm-button secondary" type="button">重命名</button>
+            <button id="rm-delete-item" class="rm-button danger ghost" type="button">删除项目</button>
+          </div>
+        </header>
+        <div class="rm-detail-grid">
+          <div class="rm-detail-left">
+            <section class="rm-card rm-source-card" aria-labelledby="rm-source-title">
+              <div class="rm-section-head">
+                <div><p class="rm-eyebrow">SOURCE</p><h2 id="rm-source-title">当前原图</h2></div>
+                <button id="rm-replace-source" class="rm-button ghost" type="button">替换原图</button>
+              </div>
+              <input id="rm-source-file" type="file" accept="image/jpeg,image/png,image/webp" hidden>
+              <div id="rm-source-frame" class="rm-source-frame"><img id="rm-source-img" alt="当前的改造原图"></div>
+              <p id="rm-source-status" class="rm-upload-status" aria-live="polite"></p>
+            </section>
+
+            <section class="rm-card" aria-labelledby="rm-analysis-title">
+              <div class="rm-section-head">
+                <div><p class="rm-eyebrow">ANALYSIS</p><h2 id="rm-analysis-title">结构分析</h2></div>
+                <button id="rm-reanalyze-item" class="rm-button ghost" type="button">重新分析</button>
+              </div>
+              <p id="rm-analysis-state" class="rm-analysis-state" aria-live="polite"></p>
+              <div class="rm-analysis-block">
+                <h3>不可改结构</h3>
+                <div id="rm-immovable-list" class="rm-chips"></div>
+              </div>
+              <div class="rm-analysis-block">
+                <h3>可替换软装</h3>
+                <div id="rm-movable-list" class="rm-chips"></div>
+              </div>
+              <p id="rm-analysis-error" class="rm-inline-error" role="alert" hidden></p>
+              <details class="rm-structure-details">
+                <summary>查看英文结构描述（已折叠）</summary>
+                <pre id="rm-structure-en" class="mono"></pre>
+              </details>
+            </section>
+
+            <section class="rm-card" aria-labelledby="rm-params-title">
+              <div class="rm-section-head">
+                <div><p class="rm-eyebrow">PARAMS · 下次生成</p><h2 id="rm-params-title">生成参数</h2></div>
+              </div>
+              <p class="rm-param-note">以下参数用于下一次生成，不会改变已有版本。</p>
+              <div id="rm-detail-mode" class="rm-mode-switch" role="radiogroup" aria-label="生成模式">
+                <button class="rm-mode-option" type="button" role="radio" data-item-mode="img2img" aria-checked="true">
+                  <strong>图生图</strong><span>原图给 AI（结构更稳，约 4-5 分钟）</span>
+                </button>
+                <button class="rm-mode-option" type="button" role="radio" data-item-mode="text" aria-checked="false">
+                  <strong>纯文本</strong><span>只给提示词（约 80 秒）</span>
+                </button>
+              </div>
+              <label class="rm-label" for="rm-detail-style">风格</label>
+              <select id="rm-detail-style" class="rm-select"></select>
+              <label class="rm-label" for="rm-prompt-override">补充要求（可选）</label>
+              <input id="rm-prompt-override" class="rm-input" type="text" maxlength="500" placeholder="例如：加一个书架 / 换一张更大的地毯">
+              <label class="rm-detail-toggle" for="rm-detail-enabled">
+                <input id="rm-detail-enabled" class="rm-detail-checkbox" type="checkbox">
+                <span class="rm-detail-toggle-copy">
+                  <strong>添加细节</strong>
+                  <span>让 AI 补充绿植、挂画、织物、摆件等装饰</span>
+                </span>
+              </label>
+              <label class="rm-label" for="rm-detail-input">细节内容（可选）</label>
+              <textarea id="rm-detail-input" class="rm-textarea rm-detail-textarea" rows="2" maxlength="300" disabled placeholder="可选：想加的装饰细节，例如 几盆绿植、两幅挂画、叠搭地毯"></textarea>
+              <p class="rm-detail-count"><span id="rm-detail-count">0/300</span></p>
+              <label class="rm-label" for="rm-gen-note">本版备注（可选）</label>
+              <input id="rm-gen-note" class="rm-input" type="text" maxlength="500" placeholder="例如：奶油风第一版，结构最稳">
+              <button id="rm-generate-item" class="rm-button primary rm-generate-button" type="button">生成改造方案</button>
+              <p id="rm-last-gen" class="rm-last-gen" hidden></p>
+              <div id="rm-item-progress" class="rm-progress" aria-live="polite" hidden>
+                <span class="spinner" aria-hidden="true"></span>
+                <span id="rm-item-progress-text">正在提交…</span>
+              </div>
+              <p id="rm-item-progress-hint" class="rm-progress-hint" hidden></p>
+            </section>
+          </div>
+
+          <div class="rm-detail-right">
+            <section id="rm-current-card" class="rm-card rm-current-card" hidden aria-labelledby="rm-current-title">
+              <div class="rm-section-head">
+                <div><p class="rm-eyebrow">LATEST · 最新版本</p><h2 id="rm-current-title">当前结果</h2></div>
+                <span id="rm-current-badges" class="rm-current-badges"></span>
+              </div>
+              <details id="rm-current-prompt" class="rm-prompt" hidden>
+                <summary class="rm-prompt-summary">
+                  <span class="rm-prompt-label">生图提示词</span>
+                  <span id="rm-prompt-brief" class="rm-prompt-brief"></span>
+                  <span id="rm-prompt-extra" class="rm-prompt-extra" hidden><span class="rm-prompt-extra-label">补充要求</span><span class="rm-prompt-extra-sep"> · </span><span id="rm-prompt-extra-value" class="rm-prompt-extra-value"></span></span>
+                  <span class="rm-prompt-actions">
+                    <span class="rm-prompt-toggle">
+                      <span id="rm-prompt-toggle-text" class="rm-prompt-toggle-text">查看提示词</span>
+                    </span>
+                    <span class="rm-prompt-chevron" aria-hidden="true"></span>
+                  </span>
+                </summary>
+                <div class="rm-prompt-body">
+                  <div class="rm-prompt-head">
+                    <span id="rm-prompt-meta" class="rm-prompt-meta"></span>
+                    <button id="rm-prompt-copy" class="rm-button ghost small" type="button">复制</button>
+                  </div>
+                  <pre id="rm-prompt-text" class="rm-prompt-text"></pre>
+                  <div id="rm-prompt-negative-wrap" class="rm-prompt-neg-wrap" hidden>
+                    <p class="rm-prompt-sub">负面提示词</p>
+                    <pre id="rm-prompt-negative" class="rm-prompt-text neg"></pre>
+                  </div>
+                </div>
+              </details>
+              <div id="rm-current-frame" class="rm-current-frame">
+                <img id="rm-current-img" alt="最新一次改造结果">
+                <p id="rm-current-empty" class="rm-current-empty" hidden>还没有生成结果。先点左侧「生成改造方案」。</p>
+              </div>
+              <div id="rm-current-meta" class="rm-result-meta"></div>
+              <div class="rm-result-actions">
+                <a id="rm-current-download" class="rm-button secondary" href="#" download>下载成品</a>
+                <a id="rm-current-source" class="rm-button ghost" href="#" download>下载原图</a>
+                <button id="rm-current-compare" class="rm-button ghost" type="button">对比原图</button>
+                <button id="rm-current-detail" class="rm-button primary" type="button">细节优化</button>
+              </div>
+              <div id="rm-current-progress" class="rm-progress" aria-live="polite" hidden>
+                <span class="spinner" aria-hidden="true"></span>
+                <span id="rm-current-progress-text">正在提交…</span>
+              </div>
+              <div id="rm-detail-optimize-panel" class="rm-detail-optimize" hidden>
+                <p class="rm-detail-optimize-hint">以当前结果图为底图，只增加装饰细节，不改结构。</p>
+                <textarea id="rm-detail-optimize-input" class="rm-textarea rm-detail-textarea" rows="2" maxlength="300" placeholder="可选：想加的装饰细节，例如 绿植、挂画、叠搭地毯"></textarea>
+                <div class="rm-detail-optimize-actions">
+                  <button id="rm-detail-optimize-submit" class="rm-button primary" type="button">开始优化</button>
+                  <button id="rm-detail-optimize-cancel" class="rm-button ghost" type="button">取消</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="rm-card" aria-labelledby="rm-gens-title">
+              <div class="rm-section-head">
+                <div><p class="rm-eyebrow">HISTORY · 版本历史</p><h2 id="rm-gens-title">版本历史</h2></div>
+                <div id="rm-gen-filters" class="rm-gen-filters" role="group" aria-label="筛选版本">
+                  <button class="rm-filter" type="button" data-gen-filter="all" aria-pressed="true">全部</button>
+                  <button class="rm-filter" type="button" data-gen-filter="img2img" aria-pressed="false">图生图</button>
+                  <button class="rm-filter" type="button" data-gen-filter="text" aria-pressed="false">纯文本</button>
+                </div>
+              </div>
+              <div id="rm-gen-grid" class="rm-gen-grid"></div>
+              <p id="rm-gen-empty" class="rm-empty" hidden>还没有生成版本。设置好参数后点击「生成改造方案」。</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <div id="rm-legacy-wizard" hidden aria-hidden="true">
+
+      <div class="remodel-shell">
+        <section class="rm-card rm-upload-card" aria-labelledby="rm-upload-title">
+          <div class="rm-section-head">
+            <div>
+              <p class="rm-eyebrow">STEP 01 · 原图</p>
+              <h2 id="rm-upload-title">上传老房照片</h2>
+            </div>
+            <span class="rm-head-note">风格永远来自提示词；图生图时原图只作结构底图</span>
+          </div>
+          <div id="rm-drop" class="rm-drop" role="button" tabindex="0"
+               aria-controls="rm-file" aria-label="点击或拖拽上传一张老房照片">
+            <input id="rm-file" class="rm-file" type="file"
+                   accept="image/jpeg,image/png,image/webp" hidden>
+            <div id="rm-drop-empty" class="rm-drop-empty">
+              <span class="rm-drop-icon" aria-hidden="true"></span>
+              <strong>拖拽照片到这里，或点击选择</strong>
+              <span>JPEG / PNG / WebP · 最大 12 MB · 建议横平竖直的室内全景</span>
+            </div>
+            <div id="rm-upload-preview" class="rm-upload-preview" hidden>
+              <img id="rm-preview-img" alt="上传的原图预览">
+              <div class="rm-upload-meta">
+                <span id="rm-upload-size" class="rm-meta-line"></span>
+                <span id="rm-aspect-label" class="rm-aspect-pill"></span>
+                <span id="rm-upload-status" class="rm-upload-status" aria-live="polite"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="rm-card" aria-labelledby="rm-structure-title">
+          <div class="rm-section-head">
+            <div>
+              <p class="rm-eyebrow">STEP 02 · 结构约束</p>
+              <h2 id="rm-structure-title">结构约束（不改）</h2>
+            </div>
+            <button id="rm-reanalyze" class="rm-button ghost" type="button">重新分析</button>
+          </div>
+          <div id="rm-immovable" class="rm-chips" aria-label="不可改结构"></div>
+          <label class="rm-label" for="rm-structure">英文结构描述（可微调）</label>
+          <textarea id="rm-structure" class="rm-textarea mono" rows="6" spellcheck="false"
+                    placeholder="上传并分析后，这里会出现只描述建筑结构的英文段落。"></textarea>
+          <div class="rm-structure-foot">
+            <span id="rm-word-count" class="rm-count">0 words</span>
+            <span class="rm-note">只描述不可改的建筑结构；家具、灯具、软装会被全部重做</span>
+          </div>
+        </section>
+
+        <section class="rm-card" aria-labelledby="rm-style-title">
+          <div class="rm-section-head">
+            <div>
+              <p class="rm-eyebrow">STEP 03 · 风格</p>
+              <h2 id="rm-style-title">选择改造风格</h2>
+            </div>
+            <div class="rm-style-controls">
+              <label id="rm-strict-row" class="rm-toggle" for="rm-strict" title="开启后锁定房间尺寸、相机位置和开口数量">
+                <input id="rm-strict" class="rm-toggle-input" type="checkbox" checked>
+                <span class="rm-toggle-track" aria-hidden="true">
+                  <span class="rm-toggle-knob"></span>
+                </span>
+                <span class="rm-toggle-label">严格结构</span>
+              </label>
+              <span id="rm-style-count" class="rm-head-note"></span>
+            </div>
+          </div>
+          <div id="rm-mode-switch" class="rm-mode-switch" role="radiogroup" aria-label="生成模式">
+            <button class="rm-mode-option" type="button" role="radio" data-mode="img2img"
+                    aria-checked="true">
+              <strong>图生图</strong>
+              <span>原图给AI（结构更稳，约 4-5 分钟）</span>
+            </button>
+            <button class="rm-mode-option" type="button" role="radio" data-mode="text"
+                    aria-checked="false">
+              <strong>纯文本</strong>
+              <span>只给提示词（约 80 秒）</span>
+            </button>
+          </div>
+          <p id="rm-mode-note" class="rm-mode-note">原图只作为结构底图，风格完全来自已选风格的提示词（不使用参考图）</p>
+          <div id="rm-style-grid" class="rm-style-grid" role="radiogroup" aria-label="改造风格"></div>
+          <p id="rm-decor-note" class="rm-mode-note rm-decor-note">灯光与软装会重新设计，建筑结构不变</p>
+        </section>
+
+        <section class="rm-card rm-generate-card" aria-labelledby="rm-generate-title">
+          <div class="rm-section-head">
+            <div>
+              <p class="rm-eyebrow">STEP 04 · 生成</p>
+              <h2 id="rm-generate-title">补充要求（可选）</h2>
+            </div>
+          </div>
+          <div class="rm-generate-row">
+            <input id="rm-extra" class="rm-input" type="text" maxlength="500"
+                   placeholder="例如：加一个书架 / 换一张更大的地毯">
+            <button id="rm-generate" class="rm-button primary rm-generate-button" type="button">生成改造方案</button>
+          </div>
+          <div id="rm-progress" class="rm-progress" aria-live="polite" hidden>
+            <span class="spinner" aria-hidden="true"></span>
+            <span id="rm-progress-text">正在提交…</span>
+          </div>
+          <p id="rm-progress-hint" class="rm-progress-hint" hidden></p>
+          <p id="rm-inline-error" class="rm-inline-error" role="alert" hidden></p>
+        </section>
+
+        <section id="rm-result-card" class="rm-card rm-result-card" aria-labelledby="rm-result-title" hidden>
+          <div class="rm-section-head">
+            <div>
+              <p class="rm-eyebrow">RESULT · 改造结果</p>
+              <h2 id="rm-result-title">原图与改造后</h2>
+            </div>
+            <span id="rm-result-style" class="rm-head-note"></span>
+          </div>
+          <div class="rm-compare">
+            <figure class="rm-compare-pane">
+              <div class="rm-compare-frame"><img id="rm-before-img" alt="原图"></div>
+              <figcaption class="rm-compare-label">原图</figcaption>
+            </figure>
+            <figure class="rm-compare-pane">
+              <div class="rm-compare-frame"><img id="rm-after-img" alt="改造后"></div>
+              <figcaption class="rm-compare-label">改造后</figcaption>
+            </figure>
+          </div>
+          <div class="rm-result-meta">
+            <span id="rm-result-mode" class="rm-mode-badge"></span>
+            <span id="rm-result-size"></span>
+            <span id="rm-result-seconds"></span>
+            <span id="rm-result-input"></span>
+            <span id="rm-result-framing"></span>
+            <span id="rm-result-score"></span>
+            <span id="rm-result-attempt"></span>
+          </div>
+          <div class="rm-design-meta">
+            <span id="rm-result-lighting"></span>
+            <span id="rm-result-decor"></span>
+          </div>
+          <div id="rm-result-check-fails" class="rm-check-fails" hidden></div>
+          <details class="rm-prompt">
+            <summary>查看生成提示词</summary>
+            <pre id="rm-result-prompt"></pre>
+          </details>
+          <div class="rm-result-actions">
+            <button id="rm-again" class="rm-button primary" type="button">再生成一张</button>
+            <button id="rm-change-style" class="rm-button secondary" type="button">换风格</button>
+            <a id="rm-download" class="rm-button secondary" href="#" download>下载</a>
+          </div>
+        </section>
+
+        <section class="rm-card" aria-labelledby="rm-history-title">
+          <div class="rm-section-head">
+            <div>
+              <p class="rm-eyebrow">HISTORY</p>
+              <h2 id="rm-history-title">最近改造</h2>
+            </div>
+            <span id="rm-history-count" class="rm-head-note"></span>
+          </div>
+          <div id="rm-history" class="rm-history-grid"></div>
+        </section>
+      </div>
+      </div>
+
+      <dialog id="rm-dialog-create" class="rm-dialog" aria-labelledby="rm-dialog-create-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭新建项目对话框">×</button>
+          <h2 id="rm-dialog-create-title">新建改造项目</h2>
+          <p class="rm-dialog-copy">上传一张老房照片。项目创建后即可使用：图生图不需要先分析结构；选择纯文本模式时，生成前会自动分析原图。</p>
+          <div id="rm-create-drop" class="rm-file-drop" role="button" tabindex="0" aria-label="选择老房照片，或将照片拖放到这里">
+            <div id="rm-create-placeholder" class="rm-file-drop-placeholder">
+              <span class="rm-drop-icon" aria-hidden="true"></span>
+              <strong>选择老房照片</strong>
+              <span>JPEG / PNG / WebP · 最大 12 MB</span>
+            </div>
+            <img id="rm-create-preview" class="rm-file-preview" alt="" hidden>
+            <div id="rm-create-file-actions" class="rm-file-actions" hidden>
+              <button id="rm-create-reselect" class="rm-file-action" type="button">重新选择</button>
+              <button id="rm-create-remove" class="rm-file-action is-danger" type="button">移除</button>
+            </div>
+            <input id="rm-create-file" type="file" accept="image/jpeg,image/png,image/webp" tabindex="-1" aria-hidden="true">
+          </div>
+          <p id="rm-create-file-name" class="rm-meta-line"></p>
+          <label class="rm-label" for="rm-create-name">项目名（可选）</label>
+          <input id="rm-create-name" class="rm-input" type="text" maxlength="120" placeholder="例如：客厅改造">
+          <p id="rm-create-error" class="rm-inline-error" role="alert" hidden></p>
+          <div class="rm-dialog-actions">
+            <button class="rm-button ghost" type="button" data-close-dialog>取消</button>
+            <button id="rm-create-submit" class="rm-button primary" type="button">创建项目</button>
+          </div>
+        </div>
+      </dialog>
+
+      <dialog id="rm-dialog-rename" class="rm-dialog" aria-labelledby="rm-dialog-rename-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭重命名对话框">×</button>
+          <h2 id="rm-dialog-rename-title">重命名项目</h2>
+          <label class="rm-label" for="rm-rename-input">项目名</label>
+          <input id="rm-rename-input" class="rm-input" type="text" maxlength="120">
+          <p id="rm-rename-error" class="rm-inline-error" role="alert" hidden></p>
+          <div class="rm-dialog-actions">
+            <button class="rm-button ghost" type="button" data-close-dialog>取消</button>
+            <button id="rm-rename-submit" class="rm-button primary" type="button">保存</button>
+          </div>
+        </div>
+      </dialog>
+
+      <dialog id="rm-dialog-delete" class="rm-dialog" aria-labelledby="rm-dialog-delete-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭删除项目对话框">×</button>
+          <h2 id="rm-dialog-delete-title">删除改造项目</h2>
+          <p class="rm-dialog-copy">项目会先移入回收站，原图和所有生成版本都会保留。也可以选择永久删除。</p>
+          <div class="rm-dialog-actions stacked">
+            <button id="rm-delete-soft" class="rm-button primary" type="button">移入回收站</button>
+            <button id="rm-delete-purge-open" class="rm-button danger ghost" type="button">永久删除…</button>
+            <button class="rm-button ghost" type="button" data-close-dialog>取消</button>
+          </div>
+        </div>
+      </dialog>
+
+      <dialog id="rm-dialog-purge" class="rm-dialog" aria-labelledby="rm-dialog-purge-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭永久删除对话框">×</button>
+          <h2 id="rm-dialog-purge-title">永久删除项目</h2>
+          <p class="rm-dialog-copy">这会永久删除原图与所有生成版本，无法恢复。请输入项目名确认：</p>
+          <p id="rm-purge-hint" class="rm-purge-hint"></p>
+          <input id="rm-purge-input" class="rm-input" type="text" autocomplete="off" placeholder="输入项目名">
+          <p id="rm-purge-error" class="rm-inline-error" role="alert" hidden></p>
+          <div class="rm-dialog-actions">
+            <button class="rm-button ghost" type="button" data-close-dialog>取消</button>
+            <button id="rm-purge-submit" class="rm-button danger" type="button" disabled>永久删除</button>
+          </div>
+        </div>
+      </dialog>
+
+      <dialog id="rm-dialog-gen-delete" class="rm-dialog" aria-labelledby="rm-dialog-gen-delete-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭删除版本对话框">×</button>
+          <h2 id="rm-dialog-gen-delete-title">删除这个版本</h2>
+          <p class="rm-dialog-copy">只删除这一版生成图与它的记录，其他版本和原图不受影响。</p>
+          <div class="rm-dialog-actions">
+            <button class="rm-button ghost" type="button" data-close-dialog>取消</button>
+            <button id="rm-gen-delete-submit" class="rm-button danger" type="button">删除本版</button>
+          </div>
+        </div>
+      </dialog>
+
+      <dialog id="rm-dialog-note" class="rm-dialog" aria-labelledby="rm-dialog-note-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭备注对话框">×</button>
+          <h2 id="rm-dialog-note-title">版本备注</h2>
+          <label class="rm-label" for="rm-note-input">备注</label>
+          <textarea id="rm-note-input" class="rm-textarea" rows="4" maxlength="2000" placeholder="记录这一版的结构、风格或问题"></textarea>
+          <p id="rm-note-error" class="rm-inline-error" role="alert" hidden></p>
+          <div class="rm-dialog-actions">
+            <button class="rm-button ghost" type="button" data-close-dialog>取消</button>
+            <button id="rm-note-submit" class="rm-button primary" type="button">保存备注</button>
+          </div>
+        </div>
+      </dialog>
+
+      <dialog id="rm-dialog-compare" class="rm-dialog rm-dialog-wide" aria-labelledby="rm-dialog-compare-title">
+        <div class="rm-dialog-card">
+          <button class="rm-dialog-close" type="button" data-close-dialog aria-label="关闭对比对话框">×</button>
+          <h2 id="rm-dialog-compare-title">原图与改造结果</h2>
+          <div class="rm-compare">
+            <figure class="rm-compare-pane">
+              <div class="rm-compare-frame"><img id="rm-compare-before" alt="改造前原图"></div>
+              <figcaption class="rm-compare-label">原图</figcaption>
+            </figure>
+            <figure class="rm-compare-pane">
+              <div class="rm-compare-frame"><img id="rm-compare-after" alt="改造后结果"></div>
+              <figcaption class="rm-compare-label">改造后</figcaption>
+            </figure>
+          </div>
+          <div class="rm-dialog-actions">
+            <a id="rm-compare-download" class="rm-button secondary" href="#" download>下载这一版</a>
+            <button class="rm-button ghost" type="button" data-close-dialog>关闭</button>
+          </div>
+        </div>
+      </dialog>
+    </main>
+  </div>
+
+  <dialog id="credentials-dialog" class="rm-dialog credentials-dialog"
+          aria-labelledby="credentials-dialog-title">
+    <div class="rm-dialog-card">
+      <button id="settings-close" class="rm-dialog-close" type="button" aria-label="关闭设置">×</button>
+      <h2 id="credentials-dialog-title">模型凭据设置</h2>
+      <p class="rm-dialog-copy">凭据按“环境变量 → 本地 credentials.json”的顺序读取；保存后下一次模型调用立即生效，无需重启。</p>
+
+      <div class="credentials-status">
+        <div class="credentials-status-row">
+          <span class="credentials-label">当前来源</span>
+          <span id="settings-source-badge" class="credentials-source" data-source="none">—</span>
+        </div>
+        <div class="credentials-status-row">
+          <span class="credentials-label">当前 Key</span>
+          <code id="settings-key-masked" class="credentials-masked">—</code>
+        </div>
+      </div>
+
+      <label class="rm-label" for="settings-base-url">Base URL</label>
+      <input id="settings-base-url" class="rm-input" type="url" spellcheck="false"
+             autocomplete="url" placeholder="https://…/compatible-mode/v1">
+
+      <label class="rm-label" for="settings-api-key">新的 API Key</label>
+      <input id="settings-api-key" class="rm-input" type="password" spellcheck="false"
+             autocomplete="new-password" placeholder="粘贴新的 Key；不会回显原始值">
+      <p class="credentials-hint">保存会写入本项目的 credentials.json（文件权限 0600）。留空不会发送请求。</p>
+      <p id="settings-error" class="rm-inline-error" role="alert" hidden></p>
+
+      <div class="rm-dialog-actions credentials-actions">
+        <button id="settings-clear" class="rm-button danger ghost" type="button">清除本地凭据</button>
+        <button id="settings-close-footer" class="rm-button ghost" type="button">关闭</button>
+        <button id="settings-save" class="rm-button primary" type="button">保存</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="toasts" class="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+  <div id="lightbox" class="lightbox" hidden aria-hidden="true">
+    <div id="lightbox-scrim" class="lightbox-scrim"></div>
+    <section id="lightbox-dialog" class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="图片预览">
+      <button id="lightbox-close" class="lightbox-close" type="button" aria-label="关闭预览">关闭</button>
+      <div id="lightbox-content" class="lightbox-content"></div>
+    </section>
+  </div>
+
+  <script src="/app.js" defer></script>
+  <script src="/remodel.js" defer></script>
+</body>
+</html>

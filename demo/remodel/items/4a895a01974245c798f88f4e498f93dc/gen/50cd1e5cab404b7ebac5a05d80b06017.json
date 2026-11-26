@@ -1,0 +1,149 @@
+{
+  "gid": "50cd1e5cab404b7ebac5a05d80b06017",
+  "item_id": "4a895a01974245c798f88f4e498f93dc",
+  "created_at": "2026-11-17T07:48:42.467Z",
+  "mode": "img2img",
+  "style": "工业风",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Renovate this exact room photograph. Keep the architecture exactly as in the input image: same wall planes, same opening positions and sizes, same ceiling height, same floor level, same camera position, same perspective, same framing and aspect ratio. Do not add, remove, resize or move any opening.\n\nThe input photograph shows: Living room, rectangular, deeper than wide, 3.6 m x 4.5 m; ceiling 2.7 m; floor: medium oak wood planks laid lengthwise toward the far wall, continuous single-level floor plane, no steps. Front-left floor-to-ceiling window/sliding door behind curtains 3.2 x 2.4 m, sill 0 m, 50% along the wall. Camera 1.5 m high, 4 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 1; do not add or remove any opening. Opening proportion: the opening is nearly wall-to-wall, leaving only narrow piers at each end. Fixed features that stay: skirting board: painted timber skirting along the base of the right wall, approx 80 mm high; wall-mounted air-conditioner: split-type indoor unit high on the right wall near the far corner; electrical distribution box: recessed metal panel high on the right wall; weak-current box: small recessed low-voltage panel lower on the right wall; installed ceiling fittings: flush round ceiling light and a recessed downlight near the curtain wall.\n\nLIGHTING DESIGN\nThe room is lit by one key light: daylight entering from the front-left opening(s). Every shadow in the room runs away from that wall.\nPractical fixtures are decorative only: at most two visible fixtures, warm 2700 K, low output. They do not cast shadows, do not add fill light, and do not glow.\nNo bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows. The window stays readable, never blown to white.\nInterior exposure is balanced for the room, not for the view outside.\nStyle-specific lighting: a black iron arc floor lamp and a metal pendant are the only practical fixtures, and the daylight reveals velvet nap, cognac leather grain and linen weave.\nYou may change the lighting completely; the original photo's light is not a constraint.\nKeep window openings physically unchanged while changing what comes through them.\n\nFURNISHING AND DECOR\nInterior styling, in industrial loft: Raw-shell industrial loft vocabulary: exposed concrete beams, columns and ducts, white painted brick and latex walls, polished micro-cement floors, black steel grid windows casting daylight shadows. Palette anchors warm taupe #967F6B, espresso #3B2C20, bone #E4D4C5, burnt orange #B2441A, iron black #1D1916, olive #5A5041. Mid-century modular velvet sofas, chrome-and-leather lounge chairs, Noguchi glass tables, ceramic stools, track spotlights, arc lamps, jute rugs, checkerboard wool, plaid and knit throws.\nSeating: burnt orange modular velvet sofa, chrome framed cognac leather lounge chair, glazed ceramic stool; Table surfaces: Noguchi style glass coffee table, espresso brown writing table with laptop and notebook; Storage/display: low iron and oak shelf unit with visible books, ceramic vessels and brass clock; Textiles: bone cream linen curtains, jute rug, checkerboard wool throw, plaid cushions; Appliances: matte black espresso machine, black electric kettle, slim turntable; Greenery: tall fiddle leaf fig in taupe clay pot, trailing pothos, olive bowl of moss; Wall decor: burnt orange abstract canvas, round iron framed mirror, woven jute wall hanging; Tabletop objects: stacked art books, amber glass vase, ceramic tray with brass keys; Lighting fixtures: black iron arc floor lamp, black metal dome pendant. Furnish the room with a burnt orange modular velvet sofa, a chrome-framed cognac leather lounge chair, a Noguchi-style glass coffee table, a glazed ceramic stool, a black iron arc floor lamp, and a jute rug. Additional requirement: Decorate the living room.\nDensity target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.\n\nEverything in the original room except the architectural shell is replaced: all furniture, soft furnishings, light fittings, textiles, decor and colours are new.\n\nHard corrections, these override other instructions: Restore the medium oak lengthwise plank floor and the flat 2.7 m ceiling (remove the concrete beam), rebuild the front-left opening as a floor-to-ceiling sliding door filling ~90% of that wall, add the painted timber skirting on the right wall, and turn off the pendant/arc practicals so all shadows run from the single left window.\n\nREALISM\nShot as an editorial interior photograph for a design magazine: 35 mm full-frame body, 24 mm tilt-shift kept level, natural imperfect surfaces - fabric wrinkles, curtain folds that are not perfectly symmetrical, faint scuffs on the skirting, real dust-free but lived-in tabletops, subtle sensor grain, gentle highlight rolloff. No retouching sheen, no HDR, no CGI, no archviz, no perfectly uniform material, no flawless symmetry, no plastic reflections.\n\nVertical 3:4 composition.\n\nAvoid: people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "negative": "people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "score": 0.931,
+  "attempts": 2,
+  "size_requested": "1080*1440",
+  "size_final": "1197*1600",
+  "width": 1197,
+  "height": 1600,
+  "model_seconds": 621.8,
+  "total_seconds": 695.7,
+  "checks": [
+    {
+      "score": 0.506,
+      "items": [
+        {
+          "key": "openings",
+          "ok": false,
+          "note": "Source opening is a floor-to-ceiling sliding door (sill 0 m) behind curtains; remodel replaces it with a punched grid window raised above the floor."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly one opening on the front-left wall, none added."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Opening no longer fills ~90% of the left wall; left wall span and ceiling/floor lines shifted, room reads wider and taller."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "Two-point angle toward front-left corner retained."
+        },
+        {
+          "key": "ceiling",
+          "ok": false,
+          "note": "Source flat 2.7 m ceiling replaced by an exposed concrete beam and industrial conduit."
+        },
+        {
+          "key": "floor",
+          "ok": false,
+          "note": "Medium oak planks laid lengthwise replaced by smooth grey concrete/terrazzo plane; pattern lost."
+        },
+        {
+          "key": "fixed_features",
+          "ok": false,
+          "note": "AC, distribution box, weak-current box and ceiling lights present, but painted timber skirting along right wall is missing."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Open shelf unit with visible books plus a desk/work surface with laptop present."
+        },
+        {
+          "key": "lighting",
+          "ok": false,
+          "note": "Lit pendant and arc lamp introduce extra fill and shadow directions beyond the single left-window key."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over 10 decor items and multiple styled surfaces (shelf, desk, coffee table)."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Convincing material texture, grain and fabric nap; reads as a photograph."
+        }
+      ],
+      "repair_en": "Restore the medium oak lengthwise plank floor and the flat 2.7 m ceiling (remove the concrete beam), rebuild the front-left opening as a floor-to-ceiling sliding door filling ~90% of that wall, add the painted timber skirting on the right wall, and turn off the pendant/arc practicals so all shadows run from the single left window.",
+      "short_form": false,
+      "attempt": 1
+    },
+    {
+      "score": 0.931,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Single front-left floor-to-ceiling opening retained on the correct wall."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly one opening; none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Revealed grid window fills far less than 90% of the left wall; left wall span and ceiling/floor lines shift, room reads wider/deeper than source."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "Two-point angle toward front-left corner preserved, horizon near mid-frame."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat 2.7 m ceiling with flush round light and recessed downlight matches."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Medium oak planks laid lengthwise toward far wall, single level, no steps."
+        },
+        {
+          "key": "fixed_features",
+          "ok": true,
+          "note": "AC unit, high distribution box, lower weak-current box and ceiling fittings present; skirting faint but continuous."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Open shelf unit with visible books plus console work surface with laptop."
+        },
+        {
+          "key": "lighting",
+          "ok": true,
+          "note": "Single daylight key from front-left, shadows run away from window, no blown window or fixture bloom."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over 10 decor items and multiple styled surfaces (coffee table, console, shelves)."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Fabric nap, wood grain, weave and subtle imperfections read as a photograph."
+        }
+      ],
+      "repair_en": "Fix framing: enlarge the front-left opening so it fills about 90% of the left wall as in the source, restore the original wall spans and ceiling/floor line positions, and keep the room from reading wider.",
+      "short_form": false,
+      "attempt": 2
+    }
+  ],
+  "source_sid": "4a895a01974245c798f88f4e498f93dc",
+  "job_id": "163e89f85c554a5b987889a6e25f0682",
+  "note": ""
+}

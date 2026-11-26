@@ -1,0 +1,149 @@
+{
+  "gid": "5b88596780a6448998ff0b9d4cd2f9fc",
+  "item_id": "4a895a01974245c798f88f4e498f93dc",
+  "created_at": "2026-11-17T02:58:56.639Z",
+  "mode": "text",
+  "style": "北欧",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Architectural shell, fixed and unchangeable: Living room, rectangular, wider than deep, 4.5 m x 3.6 m; ceiling 2.8 m; continuous floor with no level changes. Left floor-to-ceiling window / balcony door wall 2.6 x 2.4 m, sill 0 m, 50% along the wall. Camera 1.5 m high, 4 m to the far wall, 24 mm lens, tilt -5 degrees, horizon 42% of frame height. The number of openings is exactly 1; do not add or remove any opening. Fixed features that stay: skirting board: low painted skirting along base of walls; wall-mounted air-conditioner: split-type indoor unit high on the long right wall near the left corner; electrical distribution box: recessed labelled panel high on the right wall; low wall access panel: small recessed labelled box low on the right wall; ceiling light fittings: two round flush-mounted ceiling fixtures.\n\nComposition lock: single frame from the same camera position; two-point perspective, angled toward the front-left corner; horizon line at 42% of frame height; verticals truly vertical; -5 degree tilt; the room is not wider, deeper or taller than the dimensions above; mild 24 mm wide-angle perspective only, no fisheye, no added space at the frame edges.\n\nOpenings count lock: exactly 1 openings, on the described walls, at the described offsets and sizes; no added doors, no added windows, no added wall panels, no removed openings.\n\nLIGHTING DESIGN\nThe room is lit by one key light: daylight entering from the left opening(s). Every shadow in the room runs away from that wall.\nPractical fixtures are decorative only: at most two visible fixtures, warm 2700 K, low output. They do not cast shadows, do not add fill light, and do not glow.\nNo bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows. The window stays readable, never blown to white.\nInterior exposure is balanced for the room, not for the view outside.\nStyle-specific lighting: a paper globe pendant and a mushroom table lamp are the only practical fixtures, and the daylight reveals boucle nap, walnut grain and loose linen weave.\nKeep window openings physically unchanged while changing what comes through them.\n\nFURNISHING AND DECOR\nInterior styling, in nordic: Airy Nordic rooms layer warm greige #A8A298, off-white #D5D8D1, light oak #C7B198, walnut #6D5B44, espresso ink #1A110C and cobalt #32445F accents with wabi-sabi warmth. Low wood platform beds, cane lounge chairs, oak sideboards, mismatched painted chairs, floating shelves; paper globe pendants, mushroom and arc lamps; striped cotton bedding, jute rugs, chunky knits, sheepskin; latex walls, herringbone wood, microcement, black iron.\nSeating: low light-oak platform bed, off-white linen sofa, woven cane lounge chair, mismatched painted dining chairs; Table surfaces: round oak coffee table, slim oak writing table; Storage/display: wall-mounted oak bookshelf with visible books and ceramics, low oak sideboard with books and objects; Textiles: linen curtains, jute rug, striped cotton bedding, chunky knit throw, cobalt cushions, sheepskin on the cane chair; Appliances: matte black electric kettle, compact steel desk fan; Greenery: potted olive sapling, eucalyptus stems in a glass vase, trailing pothos; Wall decor: framed cobalt print, round walnut mirror, woven textile hanging; Tabletop objects: stacked art books, speckled stoneware mug, walnut tray with candle, cobalt glass carafe; Lighting fixtures: paper globe pendant, greige mushroom table lamp. Furnish the room with a low light-oak platform bed, off-white linen sofa, round oak coffee table, woven cane lounge chair, wall-mounted wood bookshelf, mismatched painted dining chairs, and a paper globe pendant above.\nDensity target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.\n\nEverything in the original room except the architectural shell is replaced: all furniture, soft furnishings, light fittings, textiles, decor and colours are new.\n\nHard corrections, these override other instructions: Restore the original straight wood-plank floor (remove herringbone), keep the wide full-wall left opening and the wider-than-deep room proportions with the source two-point front-left camera angle, and revert the ceiling to exactly two round flush fixtures with the AC near the left corner; remove the lit practical lamp so all shadows run only from the left window.\n\nREALISM\nShot as an editorial interior photograph for a design magazine: 35 mm full-frame body, 24 mm tilt-shift kept level, natural imperfect surfaces - fabric wrinkles, curtain folds that are not perfectly symmetrical, faint scuffs on the skirting, real dust-free but lived-in tabletops, subtle sensor grain, gentle highlight rolloff. No retouching sheen, no HDR, no CGI, no archviz, no perfectly uniform material, no flawless symmetry, no plastic reflections.\n\nVertical 3:4 composition.\n\nAvoid: people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "negative": "people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "score": 0.725,
+  "attempts": 2,
+  "size_requested": "1080*1440",
+  "size_final": "1195*1600",
+  "width": 1195,
+  "height": 1600,
+  "model_seconds": 177.6,
+  "total_seconds": 266.0,
+  "checks": [
+    {
+      "score": 0.575,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Single left floor-to-ceiling window/balcony door with curtains present on correct wall."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly one opening, none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Opening narrowed to a single French door; room reads deep and narrow rather than wider-than-deep, wall/ceiling lines shifted."
+        },
+        {
+          "key": "perspective",
+          "ok": false,
+          "note": "Source two-point view toward front-left corner became a near one-point view straight down the room to a back wall."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat ceiling at similar height retained."
+        },
+        {
+          "key": "floor",
+          "ok": false,
+          "note": "Source straight wood-plank layout replaced with herringbone parquet."
+        },
+        {
+          "key": "fixed_features",
+          "ok": false,
+          "note": "Two flush ceiling fixtures replaced by four plus a pendant; AC moved toward back corner instead of near left corner."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Wall shelf with books, sideboard and a desk/work surface all present."
+        },
+        {
+          "key": "lighting",
+          "ok": false,
+          "note": "Lit table lamp adds extra fill/shadows beyond the single left daylight key."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over ten decor items and several styled surfaces; no empty showroom feel."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Visible weave, grain and fabric nap; reads photographic with subtle imperfections."
+        }
+      ],
+      "repair_en": "Restore the original straight wood-plank floor (remove herringbone), keep the wide full-wall left opening and the wider-than-deep room proportions with the source two-point front-left camera angle, and revert the ceiling to exactly two round flush fixtures with the AC near the left corner; remove the lit practical lamp so all shadows run only from the left window.",
+      "short_form": false,
+      "attempt": 1
+    },
+    {
+      "score": 0.725,
+      "items": [
+        {
+          "key": "openings",
+          "ok": false,
+          "note": "Left opening became a raised-sill window, not the source floor-to-ceiling balcony door wall (sill 0 m)."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly one opening on the left wall."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Opening is much narrower relative to its wall and the room reads deeper/narrower than the source's wide shallow plan."
+        },
+        {
+          "key": "perspective",
+          "ok": false,
+          "note": "Camera now faces the back wall corner showing three walls, not the source two-point angle toward the front-left corner."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat ceiling with two round flush fixtures retained."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Continuous wood-plank plane, no level changes."
+        },
+        {
+          "key": "fixed_features",
+          "ok": false,
+          "note": "AC unit moved to the back wall instead of the long right wall; recessed distribution/access panels lost their labels and positions."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Wall shelf with books plus desk and sideboard present."
+        },
+        {
+          "key": "lighting",
+          "ok": true,
+          "note": "Daylight from left, shadows run right; no fixture halo."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over 10 decor items and several styled surfaces."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Weave, grain and fabric nap visible; reads photographic."
+        }
+      ],
+      "repair_en": "Restore the left opening to a full floor-to-ceiling balcony-door wall at sill 0 m spanning the same wall width, and reframe to the source two-point camera angled at the front-left corner so the room reads wider than deep. Move the split AC back onto the long right wall near the left corner and reinstate the labelled high distribution box and low access panel on that right wall.",
+      "short_form": false,
+      "attempt": 2
+    }
+  ],
+  "source_sid": "4a895a01974245c798f88f4e498f93dc",
+  "job_id": "6e45014d95624251a706c5d71b796dcb",
+  "note": "第二版：北欧"
+}

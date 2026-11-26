@@ -1,0 +1,46 @@
+{
+  "id": "bedroom-20261105-001",
+  "hexes": [
+    "#D9D3D0",
+    "#BDB2AC",
+    "#3E475C",
+    "#AE8D6F",
+    "#632B1C",
+    "#8C6B51"
+  ],
+  "colors": [
+    {
+      "hex": "#D9D3D0",
+      "share": 0.4366,
+      "role": "主色"
+    },
+    {
+      "hex": "#BDB2AC",
+      "share": 0.2053,
+      "role": "辅色"
+    },
+    {
+      "hex": "#3E475C",
+      "share": 0.1522,
+      "role": "辅色"
+    },
+    {
+      "hex": "#AE8D6F",
+      "share": 0.0983,
+      "role": "背景"
+    },
+    {
+      "hex": "#632B1C",
+      "share": 0.0624,
+      "role": "点缀"
+    },
+    {
+      "hex": "#8C6B51",
+      "share": 0.0452,
+      "role": "背景"
+    }
+  ],
+  "mean_luma": 164,
+  "warmth": "暖",
+  "aspect": "3:4"
+}

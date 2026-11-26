@@ -1,0 +1,149 @@
+{
+  "gid": "14b71a396b2d42c4b35e84ef01469502",
+  "item_id": "33d6dee1d6f24e76b8c4de6a14a16260",
+  "created_at": "2026-11-17T05:14:31.935Z",
+  "mode": "img2img",
+  "style": "北欧",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Renovate this exact room photograph. Keep the architecture exactly as in the input image: same wall planes, same opening positions and sizes, same ceiling height, same floor level, same camera position, same perspective, same framing and aspect ratio. Do not add, remove, resize or move any opening.\n\nThe input photograph shows: Living room, rectangular, deeper than wide, 3 m x 3.8 m; ceiling 2.7 m; floor: light beige square ceramic tiles laid in a straight grid, continuous level plane, no steps. Left window 1.5 x 1.5 m, sill 0.9 m, 35% along the wall. Right window 2 x 1.6 m, sill 0.9 m, 50% along the wall. Camera 1.5 m high, 3.8 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 2; do not add or remove any opening. Opening proportion: the opening covers about half the wall with solid wall on both sides. Fixed features that stay: ceiling cornice: plain stepped plaster cornice running along all wall-ceiling junctions; skirting board: low dark reddish-brown tile skirting at the floor line; left window sash grid: pale timber frame with rectangular multi-pane mullion layout; right window sash grid: pale timber frame with regular rectangular mullion grid and frosted lower panes; installed ceiling fan: white three-blade ceiling fan mounted at the centre of the ceiling.\n\nLIGHTING DESIGN\nThe room is lit by one key light: daylight entering from the left and right opening(s). Every shadow in the room runs away from that wall.\nPractical fixtures are decorative only: at most two visible fixtures, warm 2700 K, low output. They do not cast shadows, do not add fill light, and do not glow.\nNo bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows. The window stays readable, never blown to white.\nInterior exposure is balanced for the room, not for the view outside.\nStyle-specific lighting: a paper globe pendant and a mushroom table lamp are the only practical fixtures, and the daylight reveals boucle nap, walnut grain and loose linen weave.\nYou may change the lighting completely; the original photo's light is not a constraint.\nKeep window openings physically unchanged while changing what comes through them.\n\nFURNISHING AND DECOR\nInterior styling, in nordic: Airy Nordic rooms layer warm greige #A8A298, off-white #D5D8D1, light oak #C7B198, walnut #6D5B44, espresso ink #1A110C and cobalt #32445F accents with wabi-sabi warmth. Low wood platform beds, cane lounge chairs, oak sideboards, mismatched painted chairs, floating shelves; paper globe pendants, mushroom and arc lamps; striped cotton bedding, jute rugs, chunky knits, sheepskin; latex walls, herringbone wood, microcement, black iron.\nSeating: low light-oak platform bed, off-white linen sofa, woven cane lounge chair, mismatched painted dining chairs; Table surfaces: round oak coffee table, slim oak writing table; Storage/display: wall-mounted oak bookshelf with visible books and ceramics, low oak sideboard with books and objects; Textiles: linen curtains, jute rug, striped cotton bedding, chunky knit throw, cobalt cushions, sheepskin on the cane chair; Appliances: matte black electric kettle, compact steel desk fan; Greenery: potted olive sapling, eucalyptus stems in a glass vase, trailing pothos; Wall decor: framed cobalt print, round walnut mirror, woven textile hanging; Tabletop objects: stacked art books, speckled stoneware mug, walnut tray with candle, cobalt glass carafe; Lighting fixtures: paper globe pendant, greige mushroom table lamp. Furnish the room with a low light-oak platform bed, off-white linen sofa, round oak coffee table, woven cane lounge chair, wall-mounted wood bookshelf, mismatched painted dining chairs, and a paper globe pendant above.\nDensity target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.\n\nEverything in the original room except the architectural shell is replaced: all furniture, soft furnishings, light fittings, textiles, decor and colours are new.\n\nHard corrections, these override other instructions: Restore the source framing so the ceiling line sits near y=0.4 and the far wall keeps its original width; reinstate the low dark reddish-brown tile skirting and the frosted lower panes on the right window (fixed_features); remove the added pendant fill light and recover the blown-out right window so a single daylight shadow direction remains (lighting).\n\nREALISM\nShot as an editorial interior photograph for a design magazine: 35 mm full-frame body, 24 mm tilt-shift kept level, natural imperfect surfaces - fabric wrinkles, curtain folds that are not perfectly symmetrical, faint scuffs on the skirting, real dust-free but lived-in tabletops, subtle sensor grain, gentle highlight rolloff. No retouching sheen, no HDR, no CGI, no archviz, no perfectly uniform material, no flawless symmetry, no plastic reflections.\n\nVertical 3:4 composition.\n\nAvoid: people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "negative": "people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "score": 0.781,
+  "attempts": 2,
+  "size_requested": "1080*1440",
+  "size_final": "1224*1600",
+  "width": 1224,
+  "height": 1600,
+  "model_seconds": 487.1,
+  "total_seconds": 566.3,
+  "checks": [
+    {
+      "score": 0.713,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Left and right windows present on correct walls as windows."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly two openings, none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Ceiling line risen to ~y0.28 vs source 0.4 and far wall widened; room reads taller/wider than source."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "One-point view straight at far wall retained."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat ceiling with centre fan matches source."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Light beige straight-grid tiles, single level plane kept."
+        },
+        {
+          "key": "fixed_features",
+          "ok": false,
+          "note": "Dark reddish-brown tile skirting missing; right window lower panes no longer frosted."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Wall shelf with books, sideboard and desk work surface present."
+        },
+        {
+          "key": "lighting",
+          "ok": false,
+          "note": "Right window blown out and added paper pendant introduces extra fill light beyond the daylight key."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over 10 decor items and multiple styled surfaces (desk, coffee table, sideboard, shelf)."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Weave, grain and fabric nap visible; reads as a photograph."
+        }
+      ],
+      "repair_en": "Restore the source framing so the ceiling line sits near y=0.4 and the far wall keeps its original width; reinstate the low dark reddish-brown tile skirting and the frosted lower panes on the right window (fixed_features); remove the added pendant fill light and recover the blown-out right window so a single daylight shadow direction remains (lighting).",
+      "short_form": false,
+      "attempt": 1
+    },
+    {
+      "score": 0.781,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Left and right windows present on correct wall planes as timber sash windows."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly two openings, none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Far-wall ceiling line rose from y~0.4 to y~0.28, exposing more ceiling and making the room read taller/wider than the source."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "One-point view straight at the far wall retained."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat plaster ceiling at consistent height with central fan."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Light beige square ceramic tiles in a straight grid, single level plane."
+        },
+        {
+          "key": "fixed_features",
+          "ok": true,
+          "note": "Stepped cornice, dark reddish-brown tile skirting, pale timber multi-pane sashes and white three-blade fan all visible."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Wall shelf with visible books plus a desk/work surface present."
+        },
+        {
+          "key": "lighting",
+          "ok": false,
+          "note": "Desk practical lamp is switched on, adding warm fill and a local shadow that breaks the single daylight direction."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over ten decor items and three styled surfaces (desk, coffee table, shelf)."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Fabric nap, wood grain, weave and subtle imperfections read as a photograph."
+        }
+      ],
+      "repair_en": "Restore the source framing by lowering the far-wall ceiling line to about y=0.4 so the room does not read taller or wider, and switch off the desk lamp so all shadows run only from the left/right daylight with no extra practical fill.",
+      "short_form": false,
+      "attempt": 2
+    }
+  ],
+  "source_sid": "5bff491997e44d0c97938605e2698203",
+  "job_id": "0b12561d481c43168015a59bc44336db",
+  "note": ""
+}

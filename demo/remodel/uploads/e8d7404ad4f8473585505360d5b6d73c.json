@@ -1,0 +1,81 @@
+{
+  "schema_version": 4,
+  "room_type_en": "living room",
+  "shape_en": "rectangular, roughly square plan",
+  "ceiling_en": "ceiling not visible in frame; assume flat plain ceiling at standard 2.7 m height",
+  "walls_en": "exposed grey brick masonry on two meeting planes, rough cement plaster dado to about 1 m height, no painted finish, no skirting",
+  "floor_en": "bare mottled grey cement screed, continuous monolithic plane, no tiles or planks, no steps or level changes",
+  "geometry": {
+    "room_type_en": "living room",
+    "shape_en": "rectangular, roughly square plan",
+    "width_m": 3.6,
+    "depth_m": 3.2,
+    "ceiling_m": 2.7,
+    "floor_level_changes": false
+  },
+  "openings": [
+    {
+      "side": "front-right",
+      "type": "window",
+      "width_m": 0.9,
+      "height_m": 1.2,
+      "sill_m": 1.2,
+      "center_offset_fraction": 0.6,
+      "detail": "two-leaf solid timber shutter window set into brick, vertical central mullion, no glazing visible"
+    }
+  ],
+  "openings_total": 1,
+  "camera": {
+    "height_m": 1.5,
+    "distance_to_far_wall_m": 3.0,
+    "lens_mm": 24.0,
+    "tilt_deg": -8.0,
+    "horizon_fraction": 0.45,
+    "perspective": "two-point, angled toward the front-left brick corner"
+  },
+  "framing": {},
+  "framing_valid": false,
+  "framing_note": "ceiling_bottom_y 缺失或超出 0.05-0.45",
+  "fixed_features": [
+    {
+      "key": "brick masonry walls",
+      "detail": "exposed grey clay brick in running bond on both visible planes, untreated"
+    },
+    {
+      "key": "cement plaster dado",
+      "detail": "rough grey render to lower ~1 m of wall, irregular top edge"
+    },
+    {
+      "key": "window shutter layout",
+      "detail": "timber framed opening with two vertical solid-wood shutter leaves and central mullion"
+    },
+    {
+      "key": "internal corner",
+      "detail": "sharp 90-degree brick corner joining left and front-right walls"
+    }
+  ],
+  "camera_en": "camera at 1.5 m height, two-point perspective angled toward the front-left brick corner, moderate downward tilt, 24 mm equivalent wide lens",
+  "light_en": "soft ambient daylight from the right, no strong directional source visible",
+  "structure_en": "Living room, rectangular, roughly square plan, 3.6 m x 3.2 m; ceiling 2.7 m; floor: bare mottled grey cement screed, continuous monolithic plane, no tiles or planks, no steps or level changes. Front-right window 0.9 x 1.2 m, sill 1.2 m, 60% along the wall. Camera 1.5 m high, 3 m to the far wall, 24 mm lens, tilt -8 degrees, horizon 45% of frame height. The number of openings is exactly 1; do not add or remove any opening. Fixed features that stay: brick masonry walls: exposed grey clay brick in running bond on both visible planes, untreated; cement plaster dado: rough grey render to lower ~1 m of wall, irregular top edge; window shutter layout: timber framed opening with two vertical solid-wood shutter leaves and central mullion; internal corner: sharp 90-degree brick corner joining left and front-right walls.",
+  "structure_en_model": "The room is a roughly rectangular space of about 3.6 by 3.2 metres with a presumed flat ceiling at 2.7 metres, not seen in frame. Two exposed grey brick masonry walls meet at a sharp internal corner left of centre, each finished at the base with a rough cement plaster dado rising to about one metre and no skirting. The front-right wall carries a single timber-framed window about 0.9 metres wide and 1.2 metres high with a 1.3 metre sill, closed by two solid vertical wood shutter leaves and a central mullion. The floor is a continuous monolithic grey cement screed with no level changes. The camera stands 1.5 metres high in two-point perspective angled toward the corner, tilted slightly down with a 24 mm wide lens.",
+  "immovable_zh": [
+    "青砖裸露墙体",
+    "水泥抹灰墙裙",
+    "木板双扇窗",
+    "水泥整体地面",
+    "直角砖墙转角"
+  ],
+  "movable_zh": [
+    "木桌",
+    "长条木凳",
+    "电热水壶",
+    "竹编簸箕",
+    "台扇",
+    "蓝色布袋"
+  ],
+  "upload_id": "e8d7404ad4f8473585505360d5b6d73c",
+  "preview_url": "/remodel/uploads/e8d7404ad4f8473585505360d5b6d73c.jpg",
+  "model": "qwen4-max",
+  "vision_calls": 1,
+  "analyzed_at": "2026-11-17T02:05:03Z"
+}

@@ -1,0 +1,217 @@
+{
+  "style": {
+    "primary_zh": "原木风",
+    "primary_en": "Warm Wood Minimal",
+    "secondary_zh": [
+      "现代简约",
+      "意式极简"
+    ],
+    "confidence": 0.82,
+    "key_phrases_en": [
+      "warm oak cabinetry",
+      "terrazzo stone island",
+      "minimal kitchen",
+      "chrome accents",
+      "cane seating"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "米白水磨石",
+      "name_en": "Off-white Terrazzo",
+      "hex": "#DBD6D1",
+      "role": "主色",
+      "share": 0.2475
+    },
+    {
+      "name_zh": "橡木棕",
+      "name_en": "Oak Brown",
+      "hex": "#8F765D",
+      "role": "辅色",
+      "share": 0.2051
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut Brown",
+      "hex": "#67513E",
+      "role": "辅色",
+      "share": 0.1844
+    },
+    {
+      "name_zh": "浅灰乳胶漆",
+      "name_en": "Light Gray Latex",
+      "hex": "#C4BEB8",
+      "role": "背景",
+      "share": 0.1677
+    },
+    {
+      "name_zh": "暖灰石材",
+      "name_en": "Warm Gray Stone",
+      "hex": "#A89D8F",
+      "role": "背景",
+      "share": 0.1011
+    },
+    {
+      "name_zh": "深咖木",
+      "name_en": "Deep Coffee Wood",
+      "hex": "#3B2C20",
+      "role": "点缀",
+      "share": 0.0942
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "吊柜",
+      "item_en": "Upper cabinets",
+      "material_zh": "橡木饰面",
+      "material_en": "Oak veneer",
+      "color_zh": "橡木棕",
+      "color_en": "Oak brown",
+      "note_zh": "无拉手平板门，底部暖光灯带"
+    },
+    {
+      "item_zh": "中岛台",
+      "item_en": "Kitchen island",
+      "material_zh": "水磨石/微水泥",
+      "material_en": "Terrazzo micro-cement",
+      "color_zh": "米白",
+      "color_en": "Off-white",
+      "note_zh": "侧边开放橡木格架放书"
+    },
+    {
+      "item_zh": "餐桌延伸板",
+      "item_en": "Table extension",
+      "material_zh": "实木",
+      "material_en": "Solid wood",
+      "color_zh": "橡木棕",
+      "color_en": "Oak brown",
+      "note_zh": "与岛台搭接的悬挑木板"
+    },
+    {
+      "item_zh": "藤编餐椅",
+      "item_en": "Cane dining chair",
+      "material_zh": "藤编+黑铁",
+      "material_en": "Cane + black metal",
+      "color_zh": "米白藤面黑框",
+      "color_en": "Cream cane black frame",
+      "note_zh": "弯管金属椅腿"
+    },
+    {
+      "item_zh": "吧台凳",
+      "item_en": "Bar stool",
+      "material_zh": "镀铬金属+木",
+      "material_en": "Chrome + wood",
+      "color_zh": "银亮",
+      "color_en": "Silver",
+      "note_zh": "三脚带圆环脚踏，弧形木座"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "半球吊灯",
+        "type_en": "Dome pendant",
+        "material_zh": "镀铬金属",
+        "position_zh": "餐桌上方左侧"
+      },
+      {
+        "type_zh": "圆柱筒灯",
+        "type_en": "Cylindrical surface spotlight",
+        "material_zh": "白色金属",
+        "position_zh": "天花板"
+      },
+      {
+        "type_zh": "柜底灯带",
+        "type_en": "Under-cabinet LED strip",
+        "material_zh": "LED",
+        "position_zh": "吊柜底部"
+      }
+    ],
+    "mood_zh": "柔和漫射 daylight，柜底暖光补光，整体温暖安静",
+    "mood_en": "Soft diffused daylight with warm under-cabinet glow, calm and warm",
+    "time_of_day": "白天",
+    "direction_zh": "左侧漫射光",
+    "color_temp": "3500K 暖白"
+  },
+  "textiles": [],
+  "materials": [
+    {
+      "name_zh": "橡木饰面",
+      "name_en": "Oak veneer",
+      "where_zh": "吊柜与开放格架"
+    },
+    {
+      "name_zh": "水磨石/微水泥",
+      "name_en": "Terrazzo micro-cement",
+      "where_zh": "岛台与立柱"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "Latex paint",
+      "where_zh": "墙面"
+    },
+    {
+      "name_zh": "木地板",
+      "name_en": "Wood plank flooring",
+      "where_zh": "地面"
+    },
+    {
+      "name_zh": "镀铬金属",
+      "name_en": "Chrome metal",
+      "where_zh": "吊灯与吧凳"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "色块装饰画两幅",
+      "item_en": "Two color-block framed prints"
+    },
+    {
+      "item_zh": "金属杯架与玻璃杯",
+      "item_en": "Metal shelf with cups and glasses"
+    },
+    {
+      "item_zh": "意式咖啡机",
+      "item_en": "Espresso machine"
+    },
+    {
+      "item_zh": "磨豆机",
+      "item_en": "Coffee grinder"
+    },
+    {
+      "item_zh": "书籍",
+      "item_en": "Books"
+    },
+    {
+      "item_zh": "橙色弧形摆件",
+      "item_en": "Orange arc ornament"
+    }
+  ],
+  "space": {
+    "room_zh": "厨房",
+    "room_en": "Kitchen",
+    "structure_zh": "白灰乳胶漆墙、木地板、平顶筒灯，木吊柜靠后墙，水磨石岛台居中带开放格架，左侧接餐桌"
+  },
+  "camera": {
+    "view_zh": "平视",
+    "shot_zh": "中景",
+    "light_desc_zh": "柔和自然光加柜底暖光",
+    "quality_zh": "高清细腻真实质感"
+  },
+  "prompt_en": "Warm wood minimal kitchen, oak upper cabinets with under-cabinet glow, off-white terrazzo island with open oak bookshelf, cantilever wood dining table, black-frame cane chairs, chrome tripod bar stool, chrome dome pendant and white ceiling spotlights, palette #DBD6D1 #8F765D #67513E #C4BEB8 #A89D8F #3B2C20, oak veneer terrazzo micro-cement latex walls wood flooring chrome, soft diffused daylight warm 3500K accent, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "原木风现代厨房，橡木吊柜带柜底暖光，米白水磨石中岛侧设开放木格架，悬挑木餐桌配黑框藤编椅与镀铬三脚吧凳，半球吊灯与白色筒灯，暖灰墙面木地板，柔和自然光，高清真实质感，竖构图。",
+  "prompt_short_en": "Warm wood minimal kitchen, terrazzo island, oak cabinets, cane chairs, chrome stool, off-white and oak palette",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "原木风",
+    "现代简约",
+    "厨房",
+    "水磨石岛台",
+    "橡木橱柜",
+    "藤编椅",
+    "镀铬吧凳",
+    "暖白配色"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

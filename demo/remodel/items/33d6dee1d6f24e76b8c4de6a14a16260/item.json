@@ -1,0 +1,126 @@
+{
+  "item_id": "33d6dee1d6f24e76b8c4de6a14a16260",
+  "name": "客厅 · 北欧",
+  "renamed_by_user": false,
+  "created_at": "2026-11-17T05:04:34.974Z",
+  "updated_at": "2026-11-17T05:14:31.935Z",
+  "notes": "",
+  "default_style": "中古现代",
+  "default_mode": "img2img",
+  "source_current": "5bff491997e44d0c97938605e2698203",
+  "source_ids": [
+    "5bff491997e44d0c97938605e2698203"
+  ],
+  "cover_gen": null,
+  "structure": {
+    "schema_version": 4,
+    "room_type_en": "living room",
+    "shape_en": "rectangular, deeper than wide",
+    "ceiling_en": "flat plain white ceiling at about 2.7 m, no beams or dropped sections",
+    "walls_en": "flat white painted walls, one continuous plane per side, with a low dark skirting at the floor",
+    "floor_en": "light beige square ceramic tiles laid in a straight grid, continuous level plane, no steps",
+    "geometry": {
+      "room_type_en": "living room",
+      "shape_en": "rectangular, deeper than wide",
+      "width_m": 3.0,
+      "depth_m": 3.8,
+      "ceiling_m": 2.7,
+      "floor_level_changes": false
+    },
+    "openings": [
+      {
+        "side": "left",
+        "type": "window",
+        "width_m": 1.5,
+        "height_m": 1.5,
+        "sill_m": 0.9,
+        "center_offset_fraction": 0.35,
+        "detail": "pale timber frame divided into a rectangular multi-pane grid, fixed casement style"
+      },
+      {
+        "side": "right",
+        "type": "window",
+        "width_m": 2.0,
+        "height_m": 1.6,
+        "sill_m": 0.9,
+        "center_offset_fraction": 0.5,
+        "detail": "pale timber frame with a regular rectangular mullion grid, frosted lower panes"
+      }
+    ],
+    "openings_total": 2,
+    "camera": {
+      "height_m": 1.5,
+      "distance_to_far_wall_m": 3.8,
+      "lens_mm": 24.0,
+      "tilt_deg": -2.0,
+      "horizon_fraction": 0.45,
+      "perspective": "one-point, straight at the far wall"
+    },
+    "framing": {
+      "front_wall_and_opening_span": {
+        "from_x": 0.18,
+        "to_x": 0.72
+      },
+      "right_wall_span": {
+        "from_x": 0.72,
+        "to_x": 1.0
+      },
+      "left_wall_span": {
+        "from_x": 0.0,
+        "to_x": 0.18
+      },
+      "ceiling_bottom_y": 0.4,
+      "floor_top_y": 0.75,
+      "opening_width_over_wall_width": 0.7
+    },
+    "framing_valid": true,
+    "framing_note": "",
+    "fixed_features": [
+      {
+        "key": "ceiling cornice",
+        "detail": "plain stepped plaster cornice running along all wall-ceiling junctions"
+      },
+      {
+        "key": "skirting board",
+        "detail": "low dark reddish-brown tile skirting at the floor line"
+      },
+      {
+        "key": "left window sash grid",
+        "detail": "pale timber frame with rectangular multi-pane mullion layout"
+      },
+      {
+        "key": "right window sash grid",
+        "detail": "pale timber frame with regular rectangular mullion grid and frosted lower panes"
+      },
+      {
+        "key": "installed ceiling fan",
+        "detail": "white three-blade ceiling fan mounted at the centre of the ceiling"
+      }
+    ],
+    "camera_en": "camera at 1.5 m height, one-point perspective straight at the far wall, slight downward tilt, 24 mm equivalent wide lens",
+    "light_en": "daylight entering from the left and right timber-grid windows, soft overhead fill from the ceiling fixture",
+    "structure_en": "Living room, rectangular, deeper than wide, 3 m x 3.8 m; ceiling 2.7 m; floor: light beige square ceramic tiles laid in a straight grid, continuous level plane, no steps. Left window 1.5 x 1.5 m, sill 0.9 m, 35% along the wall. Right window 2 x 1.6 m, sill 0.9 m, 50% along the wall. Camera 1.5 m high, 3.8 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 2; do not add or remove any opening. Opening proportion: the opening covers about half the wall with solid wall on both sides. Fixed features that stay: ceiling cornice: plain stepped plaster cornice running along all wall-ceiling junctions; skirting board: low dark reddish-brown tile skirting at the floor line; left window sash grid: pale timber frame with rectangular multi-pane mullion layout; right window sash grid: pale timber frame with regular rectangular mullion grid and frosted lower panes; installed ceiling fan: white three-blade ceiling fan mounted at the centre of the ceiling.",
+    "structure_en_model": "The room is a narrow rectangular living room, deeper than wide, with a flat plain white ceiling at about 2.7 m and a continuous level floor of light beige square ceramic tiles laid in a straight grid. Each side wall is a single flat white painted plane finished with a low dark reddish-brown tile skirting and a plain stepped plaster cornice at the ceiling junction. The far wall is solid with no openings. The left wall carries a pale timber multi-pane grid window on a 0.9 m sill, and the right wall carries a larger pale timber rectangular-mullion grid window with frosted lower panes on a matching sill. A white three-blade fan is fixed at the ceiling centre. The camera sits at 1.5 m in one-point perspective straight at the far wall with a slight downward tilt.",
+    "immovable_zh": [
+      "左墙木格窗",
+      "右墙木格窗",
+      "平顶约2.7米",
+      "方形地砖地面",
+      "石膏顶角线"
+    ],
+    "movable_zh": [
+      "实木沙发组",
+      "茶几",
+      "沙发坐垫",
+      "春联福字挂饰",
+      "红灯笼串"
+    ],
+    "model": "qwen4-max",
+    "analyzed_at": "2026-11-17T05:05:02Z"
+  },
+  "analysis_error": null,
+  "gens": [
+    "14b71a396b2d42c4b35e84ef01469502"
+  ],
+  "legacy_upload_id": null
+}

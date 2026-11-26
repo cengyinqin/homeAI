@@ -1,0 +1,88 @@
+{
+  "gid": "b5f23f051c734d378ba0f1fd24812c3e",
+  "item_id": "10a81a18ed0e477abaea3dbce34c6a26",
+  "created_at": "2026-11-18T10:09:29.951Z",
+  "mode": "img2img",
+  "style": "中古现代",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Renovate this exact room photograph. Keep the architecture exactly as in the input image: same wall planes, same opening positions and sizes, same ceiling height, same floor level, same camera position, same perspective, same framing and aspect ratio. Do not add, remove, resize or move any opening.\n\nThe input photograph shows: Living room, rectangular, wider than deep, 4 m x 3.5 m; ceiling 2.8 m; floor: large-format grey marble-look polished tiles laid in a square grid, continuous glossy floor plane, no steps or level changes. Left open doorway 0.9 x 2.05 m, sill 0 m, 50% along the wall. Front-right floor-to-ceiling sliding glass door 2.2 x 2.5 m, sill 0 m, 55% along the wall. Camera 1.5 m high, 3.5 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 2; do not add or remove any opening. Opening proportion: the opening covers about half the wall with solid wall on both sides. Fixed features that stay: ceiling cornice: plain white plaster cornice running along all wall-ceiling junctions; skirting board: white painted skirting, about 90 mm high, along all walls; wall access panel: flush white rectangular cover panel set low into the far wall; sliding door frame: black aluminium frame with two sliding leaves and a fixed transom above.\n\nLIGHTING DESIGN\nThe room is lit by one key light: daylight entering from the left and front-right opening(s). Every shadow in the room runs away from that wall.\nPractical fixtures are decorative only: at most two visible fixtures, warm 2700 K, low output. They do not cast shadows, do not add fill light, and do not glow.\nNo bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows. The window stays readable, never blown to white.\nInterior exposure is balanced for the room, not for the view outside.\nStyle-specific lighting: an amber mushroom table lamp and an opal globe pendant are the only practical fixtures, and the daylight reveals boucle nap, walnut grain and linen weave.\nYou may change the lighting completely; the original photo's light is not a constraint.\nKeep window openings physically unchanged while changing what comes through them.\n\nFURNISHING AND DECOR\nInterior styling, in mid-century modern: Warm walnut-and-rust scheme: walnut #6B4A32, rust #A8542B, amber #D89855, cream greige #D6C7B4, espresso #2A1B12, haze blue #404D63. Low slatted walnut sideboards, channel-tufted velvet sofas, chrome tubular cantilever and cane chairs, glass-travertine pedestal tables. Mushroom dome lamps, globe and disc pendants, tripod paper lanterns, track spots. Persian, striped and geometric wool rugs, boucle, corduroy, vinyl records, terrazzo, brass, tapered legs.\nSeating: low channel-tufted rust velvet sofa, two cane and tubular steel lounge chairs, amber boucle ottoman; Table surfaces: glass top chrome coffee table, round travertine pedestal table, walnut writing table with brass task tray; Storage/display: slatted walnut sideboard with books and objects, open walnut shelf unit holding vinyl records and terrazzo bowls; Textiles: cream greige linen curtains, striped wool rug, small Persian wool runner, corduroy cushions and haze blue mohair throw; Appliances: turntable and compact espresso machine on the sideboard; Greenery: potted rubber plant, trailing pothos in a terrazzo pot, dried pampas stems in an amber vase; Wall decor: framed abstract amber print, round brass mirror, woven textile hanging, slim walnut wall shelf; Tabletop objects: stacked art books, brass candlesticks, ceramic espresso cups, smoked glass carafe, vinyl record sleeve; Lighting fixtures: orange mushroom table lamp, opal globe pendant. Furnish the room with a low channel-tufted rust velvet sofa, a slatted walnut sideboard, a glass-top chrome coffee table, two cane-and-tubular-steel lounge chairs, a round travertine pedestal table, and an orange mushroom lamp on a striped wool rug.\nDensity target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.\n\nINTERIOR DETAILS (allowed additions)\nYou may add small interior details on existing surfaces: potted plants and greenery, framed wall art, stacked books and magazines, ceramics and vases, candles, woven baskets, layered textiles (throws, cushions, rugs), small tabletop objects and small table lamps.\nEvery added item must be small and secondary: no new built-ins, no large furniture, no structural elements. Do not change wall planes, opening positions or sizes, ceiling height, floor level, camera position, perspective or framing. Details must sit on existing surfaces and must never block a doorway, window or walkway.\nRequested details: Add two potted green plants, an abstract framed artwork, and layered rugs.\n\nEverything in the original room except the architectural shell is replaced: all furniture, soft furnishings, light fittings, textiles, decor and colours are new.\n\nREALISM\nShot as an editorial interior photograph for a design magazine: 35 mm full-frame body, 24 mm tilt-shift kept level, natural imperfect surfaces - fabric wrinkles, curtain folds that are not perfectly symmetrical, faint scuffs on the skirting, real dust-free but lived-in tabletops, subtle sensor grain, gentle highlight rolloff. No retouching sheen, no HDR, no CGI, no archviz, no perfectly uniform material, no flawless symmetry, no plastic reflections.\n\nHorizontal 4:3 composition.\n\nAvoid: people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "negative": "people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "score": 0.931,
+  "attempts": 1,
+  "size_requested": "1440*1080",
+  "size_final": "1600*1197",
+  "width": 1600,
+  "height": 1197,
+  "model_seconds": 216.3,
+  "total_seconds": 258.7,
+  "checks": [
+    {
+      "score": 0.931,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Left open doorway and front-right black-framed sliding glass door with transom both present on correct walls."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly two openings retained; none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": false,
+          "note": "Sliding door opening reads narrower than source (~0.66-0.82 vs ~0.66-0.91); it no longer fills ~70% of the right wall, partly masked by added curtains."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "Two-point view angled to front-right corner preserved; horizon and tilt consistent."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat ceiling at same height with plain white cornice along junctions."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Grey marble-look polished tiles in square grid, continuous glossy plane, no level changes."
+        },
+        {
+          "key": "fixed_features",
+          "ok": true,
+          "note": "Cornice, white skirting, low flush access panel and black two-leaf sliding frame with transom all retained."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Wood sideboard with stacked books plus foreground counter/work surface present."
+        },
+        {
+          "key": "lighting",
+          "ok": true,
+          "note": "Daylight from front-right opening; window not blown out; pendant glow mild, no strong halo or conflicting shadows."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over 10 decor items (sofa, cushions, throw, two cane chairs, ottoman, tables, rugs, plants, lamp, art, curtains, audio) and 3+ styled surfaces."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Cane weave, fabric nap, rug pile and marble grain visible; reads as a photograph."
+        }
+      ],
+      "repair_en": "Widen the front-right sliding glass door opening so it fills about 70% of the right wall exactly as in the source (frame right edge near x=0.91), and pull the curtains clear of the frame so the opening width is not reduced.",
+      "short_form": false,
+      "attempt": 1
+    }
+  ],
+  "source_sid": "10a81a18ed0e477abaea3dbce34c6a26",
+  "job_id": "6eaa9beb30bd4e18b753b9124f906616",
+  "note": "细节功能验证",
+  "detail_enabled": true,
+  "detail_zh": "加两盆绿植、一幅抽象挂画、叠搭地毯"
+}

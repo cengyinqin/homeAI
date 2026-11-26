@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-11-16T13:54:54Z",
+  "styles": {
+    "中古现代": {
+      "style_en": "mid-century modern",
+      "style_dna_en": "Warm walnut-and-rust scheme: walnut #6B4A32, rust #A8542B, amber #D89855, cream greige #D6C7B4, espresso #2A1B12, haze blue #404D63. Low slatted walnut sideboards, channel-tufted velvet sofas, chrome tubular cantilever and cane chairs, glass-travertine pedestal tables. Mushroom dome lamps, globe and disc pendants, tripod paper lanterns, track spots. Persian, striped and geometric wool rugs, boucle, corduroy, vinyl records, terrazzo, brass, tapered legs, warm side daylight, soft shadows.",
+      "materials_en": "oiled walnut veneer, rust velvet and boucle upholstery, smoked glass, travertine and terrazzo tops, chrome tubing, brushed brass hardware",
+      "furniture_plan_en": "Furnish the room with a low channel-tufted rust velvet sofa, a slatted walnut sideboard, a glass-top chrome coffee table, two cane-and-tubular-steel lounge chairs, a round travertine pedestal table, and an orange mushroom lamp on a striped wool rug.",
+      "lighting_plan_en": "Late afternoon under a thin overcast sky, soft and dry. One key light enters from the main window wall, and every shadow runs away from that wall in a single consistent direction. Daylight reads near 5600 K, cool enough to keep cream greige textiles neutral beside rust velvet. Practical fixtures are decorative only: one amber mushroom table lamp and one opal globe pendant, both warm 2700 K at very low output, casting no shadows, adding no fill light and never glowing. No bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows; the window stays readable and interior exposure is balanced for the room. The single key light rakes across surfaces to reveal boucle nap, walnut grain and linen weave.",
+      "layering_plan_en": "Seating: low channel-tufted rust velvet sofa, two cane and tubular steel lounge chairs, amber boucle ottoman; Table surfaces: glass top chrome coffee table, round travertine pedestal table, walnut writing table with brass task tray; Storage/display: slatted walnut sideboard with books and objects, open walnut shelf unit holding vinyl records and terrazzo bowls; Textiles: cream greige linen curtains, striped wool rug, small Persian wool runner, corduroy cushions and haze blue mohair throw; Appliances: turntable and compact espresso machine on the sideboard; Greenery: potted rubber plant, trailing pothos in a terrazzo pot, dried pampas stems in an amber vase; Wall decor: framed abstract amber print, round brass mirror, woven textile hanging, slim walnut wall shelf; Tabletop objects: stacked art books, brass candlesticks, ceramic espresso cups, smoked glass carafe, vinyl record sleeve; Lighting fixtures: orange mushroom table lamp, opal globe pendant. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#6B4A32",
+          "name_en": "walnut brown"
+        },
+        {
+          "hex": "#A8542B",
+          "name_en": "rust orange"
+        },
+        {
+          "hex": "#D89855",
+          "name_en": "amber ochre"
+        },
+        {
+          "hex": "#D6C7B4",
+          "name_en": "cream greige"
+        },
+        {
+          "hex": "#2A1B12",
+          "name_en": "espresso black"
+        },
+        {
+          "hex": "#404D63",
+          "name_en": "haze blue"
+        }
+      ],
+      "signature_zh": "胡桃木与铁锈橙交叠，铬管曲线、蘑菇灯与羊毛几何地毯，酿出温润克制的中古时光感。",
+      "style_zh": "中古现代",
+      "sample_count": 96,
+      "categories": [
+        "卧室",
+        "厨房",
+        "客厅",
+        "餐厅"
+      ]
+    },
+    "奶油风": {
+      "style_en": "cream style",
+      "style_dna_en": "Warm cream minimalism blending Nordic wabi-sabi and Japanese softness: cream white #E2DBCF and oat beige #C0AC96 grounded by warm camel #906E4D, deep walnut #6C4E34, greige #837E75, dark coffee #362B1C. Low tufted boucle sofas, ball-leg round tables, floating walnut consoles, rice-paper pendants, mushroom lamps, striped cotton, jute and tufted wool rugs, sheer linen curtains, herringbone oak, latex walls, plush toys, soft diffused daylight and warm lamp glow.",
+      "materials_en": "cream latex walls, tufted boucle and cotton upholstery, jute and tufted wool rugs, sheer linen, herringbone oak flooring, walnut veneer",
+      "furniture_plan_en": "Furnish the room with a low cream boucle sofa, an off-white ball-leg round coffee table, a floating walnut media console, a cane-back accent chair, a spherical rice-paper pendant, and a layered jute-plus-tufted-wool rug.",
+      "lighting_plan_en": "Late morning on a softly overcast day, with bright hazy sky outside. One single key light enters from the main window wall, and every shadow runs away from that wall across the room. Daylight reads near 5600 K, gently warmed by cream surfaces. Practical fixtures are decorative only: a spherical rice-paper pendant and a mushroom table lamp, warm 2700 K at low output, casting no shadows, adding no fill light and never glowing. No bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows; the window stays readable and the interior exposure is balanced for the room. The single key light rakes across the boucle nap, walnut grain and linen weave, revealing soft fiber depth.",
+      "layering_plan_en": "Seating: low cream boucle sofa, cane-back accent chair, oat beige boucle ottoman; Table surfaces: off-white ball-leg round coffee table, narrow walnut writing desk; Storage/display: floating deep walnut media console, low open shelf unit with visible books and ceramic objects; Textiles: sheer linen curtains, layered jute plus tufted wool rugs, striped cotton cushions, camel wool throw; Appliances: cream electric kettle, walnut-cased radio, compact greige air purifier; Greenery: potted olive sapling, dried pampas stems in a cream vase, trailing pothos; Wall decor: framed oat beige line art, round walnut-framed mirror, woven jute wall hanging; Tabletop objects: stacked art books, speckled ceramic bowl, small brass tray, plush rabbit toy; Lighting fixtures: spherical rice-paper pendant, ceramic mushroom table lamp. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#E2DBCF",
+          "name_en": "cream white"
+        },
+        {
+          "hex": "#C0AC96",
+          "name_en": "oat beige"
+        },
+        {
+          "hex": "#906E4D",
+          "name_en": "warm camel"
+        },
+        {
+          "hex": "#6C4E34",
+          "name_en": "deep walnut"
+        },
+        {
+          "hex": "#837E75",
+          "name_en": "greige"
+        },
+        {
+          "hex": "#362B1C",
+          "name_en": "dark coffee"
+        }
+      ],
+      "signature_zh": "奶油底色裹着暖木与纸灯柔光，低矮圆润的家具里藏一点童趣。",
+      "style_zh": "奶油风",
+      "sample_count": 17,
+      "categories": [
+        "卧室",
+        "客厅"
+      ]
+    },
+    "原木风": {
+      "style_en": "natural wood japandi",
+      "style_dna_en": "Warm oak and walnut surfaces over cream latex walls, grounded in walnut brown #755F4B, camel #937B63, greige #B09D86, cream #E4DBCF and espresso #2F2213. Low solid-wood platform beds, slatted headboards, cantilever tables, open oak shelving and glass-door sideboards pair with black iron legs, cane and rattan. Jute and flatweave wool rugs, linen sheers, corduroy and cotton bedding, dome pendants, swing-arm lamps, paper lanterns, dried branches under soft diffused daylight.",
+      "materials_en": "oak and walnut veneer, cream latex walls, black iron, cane and rattan weave, jute and flatweave wool, linen and corduroy",
+      "furniture_plan_en": "Furnish the room with a low cream linen sofa, round walnut coffee table on black iron legs, open oak shelving console, cane-back lounge chair, jute rug, dome floor lamp and sheer linen curtains.",
+      "lighting_plan_en": "Late morning under a soft overcast sky, daylight near 5600 K enters as one key light from the main window wall, and every shadow runs away from that wall. The dome pendant and the swing-arm floor lamp are decorative objects only, warm 2700 K at very low output, casting no shadows, adding no fill light and never glowing. Render no bloom, no halo, no light spill on the ceiling, no lens flare and no double shadows. Keep the window readable and hold the interior exposure balanced for the room rather than for the glass. This single key light grazes the boucle nap, opens the walnut grain and picks out the linen weave.",
+      "layering_plan_en": "Seating: low cream linen sofa, cane-back lounge chair, oak bench with corduroy cushion; Table surfaces: round walnut coffee table on black iron legs, narrow oak writing desk; Storage/display: open oak shelving console with visible books and stoneware, glass-door sideboard with stacked books and objects; Textiles: sheer linen curtains, jute rug, flatweave wool runner, cotton throw, camel corduroy cushions, greige linen cushion; Appliances: matte black electric kettle on a walnut tray, compact wood-cased radio; Greenery: dried branches in a tall stoneware vase, small potted olive tree; Wall decor: framed cream line-art print, round walnut-framed mirror, hanging woven textile panel, narrow oak wall shelf; Tabletop objects: stacked art books, hand-thrown stoneware bowl, brass taper candle holder, small rattan tray; Lighting fixtures: cream dome pendant, black swing-arm floor lamp. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#E4DBCF",
+          "name_en": "cream"
+        },
+        {
+          "hex": "#B09D86",
+          "name_en": "warm greige"
+        },
+        {
+          "hex": "#937B63",
+          "name_en": "camel tan"
+        },
+        {
+          "hex": "#8C6944",
+          "name_en": "oak brown"
+        },
+        {
+          "hex": "#755F4B",
+          "name_en": "walnut brown"
+        },
+        {
+          "hex": "#2F2213",
+          "name_en": "espresso"
+        }
+      ],
+      "signature_zh": "原木暖调、克制留白，柔光与木纹交织的静谧日常。",
+      "style_zh": "原木风",
+      "sample_count": 11,
+      "categories": [
+        "卧室",
+        "厨房",
+        "客厅"
+      ]
+    },
+    "北欧": {
+      "style_en": "nordic",
+      "style_dna_en": "Airy Nordic rooms layer warm greige #A8A298, off-white #D5D8D1, light oak #C7B198, walnut #6D5B44, espresso ink #1A110C and cobalt #32445F accents with wabi-sabi warmth. Low wood platform beds, cane lounge chairs, oak sideboards, mismatched painted chairs, floating shelves; paper globe pendants, mushroom and arc lamps; striped cotton bedding, jute rugs, chunky knits, sheepskin; latex walls, herringbone wood, microcement, black iron, diffused side daylight.",
+      "materials_en": "latex walls, light oak and walnut veneer, herringbone wood, microcement, black iron, jute rugs, striped cotton, chunky knits and sheepskin",
+      "furniture_plan_en": "Furnish the room with a low light-oak platform bed, off-white linen sofa, round oak coffee table, woven cane lounge chair, wall-mounted wood bookshelf, mismatched painted dining chairs, and a paper globe pendant above.",
+      "lighting_plan_en": "Late morning under thin overcast skies, soft diffuse daylight near 6000 K fills the room evenly. One key light comes from the main window wall, and every shadow runs away from that wall in a single consistent direction. The paper globe pendant and the mushroom table lamp are decorative props only, warm 2700 K, very low output; they cast no shadows, add no fill light and do not glow. No bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows; the window stays readable and the interior exposure is balanced for the room. The single key light rakes across surfaces to reveal boucle nap, walnut grain and the loose linen weave.",
+      "layering_plan_en": "Seating: low light-oak platform bed, off-white linen sofa, woven cane lounge chair, mismatched painted dining chairs; Table surfaces: round oak coffee table, slim oak writing table; Storage/display: wall-mounted oak bookshelf with visible books and ceramics, low oak sideboard with books and objects; Textiles: linen curtains, jute rug, striped cotton bedding, chunky knit throw, cobalt cushions, sheepskin on the cane chair; Appliances: matte black electric kettle, compact steel desk fan; Greenery: potted olive sapling, eucalyptus stems in a glass vase, trailing pothos; Wall decor: framed cobalt print, round walnut mirror, woven textile hanging; Tabletop objects: stacked art books, speckled stoneware mug, walnut tray with candle, cobalt glass carafe; Lighting fixtures: paper globe pendant, greige mushroom table lamp. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#A8A298",
+          "name_en": "warm greige"
+        },
+        {
+          "hex": "#D5D8D1",
+          "name_en": "soft off-white"
+        },
+        {
+          "hex": "#C7B198",
+          "name_en": "light oak"
+        },
+        {
+          "hex": "#6D5B44",
+          "name_en": "walnut brown"
+        },
+        {
+          "hex": "#1A110C",
+          "name_en": "espresso ink"
+        },
+        {
+          "hex": "#32445F",
+          "name_en": "cobalt navy"
+        }
+      ],
+      "signature_zh": "浅木纸灯的温柔北欧：留白墙面配条纹棉织与藤编，克制中透出生活暖意。",
+      "style_zh": "北欧",
+      "sample_count": 9,
+      "categories": [
+        "卧室",
+        "客厅"
+      ]
+    },
+    "现代简约": {
+      "style_en": "modern minimalist",
+      "style_dna_en": "High-key white latex walls over grey microcement or pale wood floors anchor a muted palette of cement grey #8F8F8B, greige #C9C7C1, cream white #E3E2DF, haze blue #4C6174, charcoal #140F0B and warm orange #DE9145. Low platform beds, modular sofas, cube shelving, casters and chrome stands meet paper pendant lamps, arc floor lamps, striped cotton bedding, wool rugs and jute, black iron frames, glass-marble tables and sparse geometric art.",
+      "materials_en": "white latex walls, grey microcement, pale wood, chrome, black iron, glass and marble surfaces, wool and jute, striped cotton",
+      "furniture_plan_en": "Furnish the room with a low platform bed or modular sectional, a black cube shelving unit, a chrome rolling side cart, a glass coffee table on marble sphere base, an arc floor lamp and a paper pendant.",
+      "lighting_plan_en": "Late morning under a bright overcast sky, soft diffused daylight near 6200 K fills the room evenly. One single key light enters from the main window wall, and every shadow runs away from that wall in the same direction. The paper pendant and the arc floor lamp are decorative objects only, warm 2700 K at very low output, casting no shadows, adding no fill light and never glowing. Render no bloom, no halo, no light spill on the ceiling, no lens flare and no double shadows. The window stays readable and the interior exposure is balanced for the room. This single key light rakes across surfaces to reveal boucle nap, walnut grain and linen weave.",
+      "layering_plan_en": "Seating: low platform bed, modular greige sectional, charcoal boucle lounge chair; Table surfaces: glass coffee table on marble sphere base, slim charcoal writing table, chrome rolling side cart, bedside table with carafe and book; Storage/display: black cube shelving unit, open bookshelf with visible books, vases and small objects; Textiles: cream linen curtains, haze blue wool rug, jute runner, striped cotton bedding, warm orange cushions, greige throw; Appliances: matte black wireless speaker, slim charcoal kettle on the cart; Greenery: olive branch in cement grey vase, small potted fern; Wall decor: two geometric prints in black iron frames, round chrome mirror, narrow wall shelf; Tabletop objects: stacked art books, marble tray, ceramic bowl, orange candle; Lighting fixtures: one paper pendant, one arc floor lamp on chrome stand. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#8F8F8B",
+          "name_en": "cement grey"
+        },
+        {
+          "hex": "#C9C7C1",
+          "name_en": "greige"
+        },
+        {
+          "hex": "#E3E2DF",
+          "name_en": "cream white"
+        },
+        {
+          "hex": "#4C6174",
+          "name_en": "haze blue"
+        },
+        {
+          "hex": "#140F0B",
+          "name_en": "charcoal black"
+        },
+        {
+          "hex": "#DE9145",
+          "name_en": "warm orange"
+        }
+      ],
+      "signature_zh": "白灰留白为底，雾蓝点睛，低矮家具配镀铬与黑铁细节，克制而松弛。",
+      "style_zh": "现代简约",
+      "sample_count": 5,
+      "categories": [
+        "卧室",
+        "客厅"
+      ]
+    },
+    "日式侘寂": {
+      "style_en": "japanese wabi-sabi",
+      "style_dna_en": "Wabi-sabi japandi calm built on warm taupe #A09281, light greige #CAC4BA, walnut brown #695745, espresso #2A221F, rice-paper beige #C5AE85 and hazy blue #7A9BD0; low oak platform beds, walnut side tables, mirrored or metal-glass nightstands, akari rice-paper pendants and gourd floor lamps, rumpled cotton gauze and pinstripe linen, woven jute rugs, linen roman shades, hand-thrown ceramics, plaster niches, bare wood floors, soft diffused daylight.",
+      "materials_en": "rice-paper beige, taupe plaster, oak and walnut veneer, cotton gauze, pinstripe linen, woven jute, hand-thrown ceramic, bare wood floors",
+      "furniture_plan_en": "Furnish the room with a low light-oak platform bed, a small walnut side table, a mirrored cube nightstand, a spherical rice-paper pendant, a gourd paper floor lamp, a woven jute rug and a slim white wall shelf.",
+      "lighting_plan_en": "Late morning under thin overcast skies gives soft, even daylight. One key light enters from the main window wall, and every shadow runs away from that wall. Daylight reads near 5600 K, gently cooled against the warm taupe and greige surfaces. The spherical rice-paper pendant and the gourd paper floor lamp are decorative only, warm 2700 K at low output; they cast no shadows, add no fill light and do not glow. No bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows; the window stays readable and the interior exposure is balanced for the room. The single key light rakes across boucle nap, walnut grain and linen weave, keeping every texture quietly legible.",
+      "layering_plan_en": "Seating: low light-oak platform bed, warm taupe boucle bench at its foot; Table surfaces: small walnut side table, mirrored cube nightstand, compact walnut writing table with a ceramic tray; Storage/display: low open shelf unit with visible books and hand-thrown objects, slim white wall shelf; Textiles: floor-length linen curtains, woven jute rug, rumpled cotton gauze throw, two pinstripe linen cushions; Appliances: espresso-black electric kettle, compact light greige air purifier; Greenery: dried pampas stems in a stoneware vase, small potted moss bowl; Wall decor: framed sumi ink print, hanging linen textile panel, round walnut-framed mirror; Tabletop objects: hand-thrown ceramic bowl, stacked paperbacks, brass incense holder, hazy indigo blue cup; Lighting fixtures: spherical rice-paper pendant, gourd paper floor lamp. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#A09281",
+          "name_en": "warm taupe"
+        },
+        {
+          "hex": "#CAC4BA",
+          "name_en": "light greige"
+        },
+        {
+          "hex": "#695745",
+          "name_en": "walnut brown"
+        },
+        {
+          "hex": "#2A221F",
+          "name_en": "espresso black"
+        },
+        {
+          "hex": "#C5AE85",
+          "name_en": "rice paper beige"
+        },
+        {
+          "hex": "#7A9BD0",
+          "name_en": "hazy indigo blue"
+        }
+      ],
+      "signature_zh": "低矮木作配纸灯柔光，粗织棉麻与素墙留白，于斑驳暖灰中安住不完美之美。",
+      "style_zh": "日式侘寂",
+      "sample_count": 4,
+      "categories": [
+        "卧室"
+      ]
+    },
+    "工业风": {
+      "style_en": "industrial loft",
+      "style_dna_en": "Raw-shell industrial loft vocabulary: exposed concrete beams, columns and ducts, white painted brick and latex walls, polished micro-cement floors, black steel grid windows casting daylight shadows. Palette anchors warm taupe #967F6B, espresso #3B2C20, bone #E4D4C5, burnt orange #B2441A, iron black #1D1916, olive #5A5041. Mid-century modular velvet sofas, chrome-and-leather lounge chairs, Noguchi glass tables, ceramic stools, track spotlights, arc lamps, jute rugs, checkerboard wool, plaid and knit throws.",
+      "materials_en": "exposed concrete, white painted brick, latex walls, polished micro-cement, black steel, chrome and leather, smoked glass, jute and checkerboard wool",
+      "furniture_plan_en": "Furnish the room with a burnt orange modular velvet sofa, a chrome-framed cognac leather lounge chair, a Noguchi-style glass coffee table, a glazed ceramic stool, a black iron arc floor lamp, and a jute rug.",
+      "lighting_plan_en": "Late afternoon under a clear sky with thin high cloud, soft and dry. One key light enters from the main window wall, and every shadow runs away from that wall in a single consistent direction. Daylight reads about 5600 K, slightly cooled where it grazes pale surfaces. The black iron arc floor lamp and the metal pendant are decorative objects only, warm 2700 K at very low output, casting no shadows, adding no fill light and never glowing. No bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows; the window stays readable and interior exposure is balanced for the room. This single key light rakes across velvet nap, cognac leather grain and linen weave, keeping micro texture crisp.",
+      "layering_plan_en": "Seating: burnt orange modular velvet sofa, chrome framed cognac leather lounge chair, glazed ceramic stool; Table surfaces: Noguchi style glass coffee table, espresso brown writing table with laptop and notebook; Storage/display: low iron and oak shelf unit with visible books, ceramic vessels and brass clock; Textiles: bone cream linen curtains, jute rug, checkerboard wool throw, plaid cushions; Appliances: matte black espresso machine, black electric kettle, slim turntable; Greenery: tall fiddle leaf fig in taupe clay pot, trailing pothos, olive bowl of moss; Wall decor: burnt orange abstract canvas, round iron framed mirror, woven jute wall hanging; Tabletop objects: stacked art books, amber glass vase, ceramic tray with brass keys; Lighting fixtures: black iron arc floor lamp, black metal dome pendant. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#967F6B",
+          "name_en": "warm taupe"
+        },
+        {
+          "hex": "#3B2C20",
+          "name_en": "espresso brown"
+        },
+        {
+          "hex": "#E4D4C5",
+          "name_en": "bone cream"
+        },
+        {
+          "hex": "#B2441A",
+          "name_en": "burnt orange"
+        },
+        {
+          "hex": "#1D1916",
+          "name_en": "iron black"
+        },
+        {
+          "hex": "#5A5041",
+          "name_en": "olive drab"
+        }
+      ],
+      "signature_zh": "裸混凝土与黑铁窗格为骨架，中古橙调软装为灵魂的粗犷精致阁楼气质。",
+      "style_zh": "工业风",
+      "sample_count": 3,
+      "categories": [
+        "客厅"
+      ]
+    },
+    "意式极简": {
+      "style_en": "italian minimalist",
+      "style_dna_en": "Warm cream minimalism anchored by #C2B9AE greige, #A48E82 taupe, #7F685C walnut brown, #352620 espresso and #100E0C ink black; low modular sofas, boucle lounge chairs on tulip bases, travertine plinth tables, walnut slat walls, floating consoles; chrome arc and mushroom lamps, recessed cove and track lighting; sheer linen curtains, wool rugs, caramel leather, microcement floors, sculptural black vases, soft diffused daylight.",
+      "materials_en": "boucle upholstery, travertine, walnut slat veneer, chrome, sheer linen, wool, caramel leather, microcement floors, sculptural ceramic",
+      "furniture_plan_en": "Furnish the room with a low modular cream sofa, a boucle lounge chair with ottoman, a travertine plinth coffee table, a floating walnut media console, a chrome arc floor lamp, and a hand-tufted wool rug.",
+      "lighting_plan_en": "Late afternoon sun with soft overcast weather enters from the main window wall as the only key light, with daylight at 5200 K. Two practical fixtures at 2700 K, a slim linear pendant and a marble table lamp, are decorative only and low output; they cast no shadows and add no fill light. Every shadow in the room runs away from the window wall, with gentle falloff on the floor and a calm wall gradient. No bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows; the window stays readable and never blows to white. Interior exposure is balanced for the room, not for the view outside. The key light reveals the cream grey, warm greige, taupe brown palette and lifts boucle nap, walnut grain and linen weave across natural timber, linen and ceramic surfaces.",
+      "layering_plan_en": "Layering plan in italian minimalist with cream grey, warm greige, taupe brown: Seating: a low modular cream sofa, a boucle lounge chair with ottoman, a travertine plinth coffee table, a floating walnut media console, a chrome arc floor lamp, and a hand-tufted wool rug; Table surfaces: a round coffee table, a slim writing desk, a low console table; Storage/display: an open bookshelf with visible books and ceramic objects, a low sideboard with books and bowls, a display cabinet; Textiles: floor-length linen curtains, a woven wool rug, boucle cushions, a cotton throw; Appliances: a matte record player, a ceramic diffuser, a slim speaker; Greenery: a potted olive tree, trailing ivy, a vase of dried branches; Wall decor: a framed abstract print, a round brass mirror, a woven wall hanging; Tabletop objects: a ceramic vase, a stack of art books, a brass tray, a pillar candle, a stone sculpture; Lighting fixtures: a slim linear pendant, a marble table lamp. Density target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.",
+      "palette": [
+        {
+          "hex": "#D1CCC5",
+          "name_en": "cream grey"
+        },
+        {
+          "hex": "#C2B9AE",
+          "name_en": "warm greige"
+        },
+        {
+          "hex": "#A48E82",
+          "name_en": "taupe brown"
+        },
+        {
+          "hex": "#7F685C",
+          "name_en": "walnut brown"
+        },
+        {
+          "hex": "#352620",
+          "name_en": "espresso brown"
+        },
+        {
+          "hex": "#100E0C",
+          "name_en": "ink black"
+        }
+      ],
+      "signature_zh": "奶油暖调铺底，胡桃木与洞石压场，低矮体块配隐藏光带，克制而昂贵的意式极简。",
+      "style_zh": "意式极简",
+      "sample_count": 3,
+      "categories": [
+        "客厅"
+      ]
+    }
+  }
+}

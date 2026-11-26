@@ -1,0 +1,89 @@
+{
+  "gid": "9a3d8883111b460283ef5f1feae78779",
+  "item_id": "10a81a18ed0e477abaea3dbce34c6a26",
+  "created_at": "2026-11-18T14:37:48.127Z",
+  "mode": "img2img",
+  "style": "中古现代",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "REFINE PASS. The input image is already a finished photorealistic interior render, not an original old-room photograph.\n\nKeep everything already in the image unchanged: same architecture, same wall planes and openings, same ceiling height, same floor level, same furniture, same materials, colours, lighting and shadows, same camera position, perspective, framing and aspect ratio. Do not move, remove, replace or resize anything.\n\nOnly add small decorative layers sitting on existing surfaces: potted plants and greenery, framed wall art, stacked books and magazines, ceramics and vases, candles, woven baskets, layered textiles (throws, cushions, rugs), small tabletop objects and small table lamps.\n\nEvery addition must stay small and secondary. Do not block doorways, window openings or walkways. Do not introduce large furniture, cabinets, built-in storage or structural elements.\n\nRequested details: Add a large potted monstera and a table lamp.\n\nThe existing interior style is mid-century modern; any added decor must match it.\n\nREALISM\nShot as an editorial interior photograph for a design magazine: 35 mm full-frame body, 24 mm tilt-shift kept level, natural imperfect surfaces - fabric wrinkles, curtain folds that are not perfectly symmetrical, faint scuffs on the skirting, real dust-free but lived-in tabletops, subtle sensor grain, gentle highlight rolloff. No retouching sheen, no HDR, no CGI, no archviz, no perfectly uniform material, no flawless symmetry, no plastic reflections.\n\nHorizontal 4:3 composition.\n\nThe result must look like the same photograph with a few small objects added, not a re-rendered new space.\n\nAvoid: people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "negative": "people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "score": 0.85,
+  "attempts": 1,
+  "size_requested": "1440*1080",
+  "size_final": "1600*1197",
+  "width": 1600,
+  "height": 1197,
+  "model_seconds": 252.9,
+  "total_seconds": 295.0,
+  "checks": [
+    {
+      "score": 0.85,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Left open doorway and front-right black-framed sliding glass door with transom both present on correct walls."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly two openings; none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": true,
+          "note": "Wall spans, ceiling and far-wall floor lines and opening-to-wall ratio stay close to source; room not wider."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "Two-point view angled to front-right corner matches source."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat ceiling at same height with plain white cornice retained."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Continuous glossy grey marble-look tiles in square grid, no level changes."
+        },
+        {
+          "key": "fixed_features",
+          "ok": true,
+          "note": "Cornice, white skirting, low flush access panel and black two-leaf sliding frame with transom all visible."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Wooden sideboard with stacked books plus console/coffee work surfaces present."
+        },
+        {
+          "key": "lighting",
+          "ok": false,
+          "note": "Pendant globe shows a glowing halo/bloom and the orange table lamp and right lamp are lit, adding fill light beyond the single daylight key."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Over ten decor items (plants, sofa, throw, cushions, art, chairs, pouf, rugs, lamps, sideboard, turntable) and several styled surfaces."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Visible weave, grain and fabric nap; subtle imperfections; reads as a photograph."
+        }
+      ],
+      "repair_en": "Fix the lighting: remove the bloom/halo around the pendant globe and turn off the practical table and floor lamps so only the daylight key from the window wall casts shadows, with no extra fill light.",
+      "short_form": false,
+      "attempt": 1
+    }
+  ],
+  "source_sid": "10a81a18ed0e477abaea3dbce34c6a26",
+  "job_id": "dd260afb45144adea694abed4ac367e4",
+  "note": "细节优化",
+  "detail_enabled": true,
+  "detail_zh": "加一盆大型龟背竹和一盏桌面台灯",
+  "refine_of": "b5f23f051c734d378ba0f1fd24812c3e"
+}

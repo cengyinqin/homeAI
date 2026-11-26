@@ -1,0 +1,228 @@
+{
+  "style": {
+    "primary_zh": "中古现代",
+    "primary_en": "Mid-century Modern",
+    "secondary_zh": [
+      "现代简约",
+      "北欧"
+    ],
+    "confidence": 0.82,
+    "key_phrases_en": [
+      "mid-century modern living room",
+      "chrome tubular furniture",
+      "tan woven cord lounge chair",
+      "modular steel storage",
+      "geometric cube rug",
+      "warm neutral palette"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖灰褐",
+      "name_en": "Warm Taupe",
+      "hex": "#857A6C",
+      "role": "主色",
+      "share": 0.3306
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut Brown",
+      "hex": "#715A47",
+      "role": "辅色",
+      "share": 0.302
+    },
+    {
+      "name_zh": "深咖木棕",
+      "name_en": "Dark Coffee Wood",
+      "hex": "#482E1D",
+      "role": "辅色",
+      "share": 0.1792
+    },
+    {
+      "name_zh": "浅暖灰",
+      "name_en": "Light Warm Grey",
+      "hex": "#A29B91",
+      "role": "点缀",
+      "share": 0.0832
+    },
+    {
+      "name_zh": "米灰",
+      "name_en": "Greige",
+      "hex": "#C4BEB4",
+      "role": "背景",
+      "share": 0.0744
+    },
+    {
+      "name_zh": "奶油白",
+      "name_en": "Cream White",
+      "hex": "#ECEAE4",
+      "role": "背景",
+      "share": 0.0306
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "编织休闲椅",
+      "item_en": "woven cord lounge chair",
+      "material_zh": "藤编绳+镀铬钢",
+      "material_en": "woven cord + chrome steel",
+      "color_zh": "焦糖棕",
+      "color_en": "caramel tan",
+      "note_zh": "细密编织坐面，镀铬细腿"
+    },
+    {
+      "item_zh": "模块布艺沙发",
+      "item_en": "modular fabric sofa",
+      "material_zh": "绒布",
+      "material_en": "velvet fabric",
+      "color_zh": "雾霾蓝",
+      "color_en": "hazy blue",
+      "note_zh": "方格绗缝无扶手低矮造型"
+    },
+    {
+      "item_zh": "模块收纳柜",
+      "item_en": "modular storage cabinet",
+      "material_zh": "镀铬钢管+金属面板",
+      "material_en": "chrome tube + metal panel",
+      "color_zh": "米灰",
+      "color_en": "greige",
+      "note_zh": "球形拉手，开放格放书与唱机"
+    },
+    {
+      "item_zh": "电视支架",
+      "item_en": "TV stand",
+      "material_zh": "镀铬钢",
+      "material_en": "chrome steel",
+      "color_zh": "银灰",
+      "color_en": "silver grey",
+      "note_zh": "带滚轮细腿，下层放游戏机"
+    },
+    {
+      "item_zh": "曲木层架",
+      "item_en": "curved plywood shelf",
+      "material_zh": "弯曲胶合板",
+      "material_en": "bent plywood",
+      "color_zh": "浅木色",
+      "color_en": "light wood",
+      "note_zh": "波浪形立板多层搁板"
+    },
+    {
+      "item_zh": "铁丝边几",
+      "item_en": "wire side table",
+      "material_zh": "镀铬铁丝",
+      "material_en": "chrome wire",
+      "color_zh": "银灰",
+      "color_en": "silver grey",
+      "note_zh": "网格立方体造型放书"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "圆顶台灯",
+        "type_en": "dome table lamp",
+        "material_zh": "镀铬金属",
+        "position_zh": "电视柜旁地面"
+      },
+      {
+        "type_zh": "嵌入式筒灯",
+        "type_en": "recessed downlight",
+        "material_zh": "金属",
+        "position_zh": "天花"
+      }
+    ],
+    "mood_zh": "白天柔和自然光，右侧大窗侧光，暖调偏中性",
+    "mood_en": "soft daytime daylight from right windows, warm-neutral",
+    "time_of_day": "白天",
+    "direction_zh": "右侧窗光",
+    "color_temp": "4000K 中性暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "几何地毯",
+      "item_en": "geometric rug",
+      "fabric_zh": "羊毛",
+      "fabric_en": "wool",
+      "color_zh": "棕米相间",
+      "pattern_zh": "立体方块格纹"
+    },
+    {
+      "item_zh": "沙发布",
+      "item_en": "sofa upholstery",
+      "fabric_zh": "绒布",
+      "fabric_en": "velvet",
+      "color_zh": "雾霾蓝",
+      "pattern_zh": "纯色绗缝"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "木地板",
+      "name_en": "wood flooring",
+      "where_zh": "地面深色胡桃木"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "latex paint",
+      "where_zh": "墙面与天花奶油白"
+    },
+    {
+      "name_zh": "木饰面",
+      "name_en": "wood veneer",
+      "where_zh": "曲木层架"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "鸭脚木绿植",
+      "item_en": "schefflera plant"
+    },
+    {
+      "item_zh": "垂吊绿植",
+      "item_en": "trailing plant"
+    },
+    {
+      "item_zh": "黄花瓶插",
+      "item_en": "yellow flowers in vase"
+    },
+    {
+      "item_zh": "书籍",
+      "item_en": "books"
+    },
+    {
+      "item_zh": "黑胶唱机",
+      "item_en": "turntable"
+    },
+    {
+      "item_zh": "平板电视",
+      "item_en": "flat-screen TV"
+    }
+  ],
+  "space": {
+    "room_zh": "客厅",
+    "room_en": "Living room",
+    "structure_zh": "奶油白乳胶漆墙与带梁天花含高侧窗，深色木地板，右侧落地大窗，白色柜体嵌入洗烘塔，左侧门洞通向走廊"
+  },
+  "camera": {
+    "view_zh": "平视微俯",
+    "shot_zh": "全景",
+    "light_desc_zh": "右侧窗自然侧光，柔和暖调",
+    "quality_zh": "高清写实室内摄影"
+  },
+  "prompt_en": "mid-century modern living room, tan woven cord lounge chair with chrome legs, hazy blue tufted modular sofa, greige modular steel cabinet with turntable, chrome TV stand, bent plywood shelf, chrome wire side table, chrome dome lamp, wool geometric cube rug in brown and cream, palette #857A6C #715A47 #482E1D #A29B91 #C4BEB4 #ECEAE4, dark walnut wood floor, cream latex walls, beamed ceiling with clerestory, large right windows, soft warm daylight, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "中古现代客厅，焦糖棕编织绳休闲椅配镀铬腿，雾霾蓝绗缝模块沙发，米灰钢管收纳柜放唱机，镀铬电视架与曲木层架，棕米立体方块羊毛地毯，深胡桃木地板奶油白墙，右侧大窗柔和暖白自然光，高清写实室内摄影，3:4竖构图。",
+  "prompt_short_en": "mid-century modern living room, tan woven chair, blue sofa, warm taupe and walnut palette",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "中古现代",
+    "客厅",
+    "镀铬家具",
+    "编织椅",
+    "雾霾蓝沙发",
+    "几何地毯",
+    "胡桃木地板",
+    "暖中性配色"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

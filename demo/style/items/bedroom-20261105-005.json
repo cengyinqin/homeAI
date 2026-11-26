@@ -1,0 +1,246 @@
+{
+  "style": {
+    "primary_zh": "日式侘寂",
+    "primary_en": "Japanese Wabi-Sabi",
+    "secondary_zh": [
+      "原木风",
+      "北欧"
+    ],
+    "confidence": 0.72,
+    "key_phrases_en": [
+      "japandi bedroom",
+      "low platform bed",
+      "akari paper lantern",
+      "warm neutral palette",
+      "minimal cozy"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖橡木棕",
+      "name_en": "Warm Oak Brown",
+      "hex": "#907F6C",
+      "role": "主色",
+      "share": 0.3119
+    },
+    {
+      "name_zh": "浅驼米灰",
+      "name_en": "Light Taupe Greige",
+      "hex": "#A79785",
+      "role": "辅色",
+      "share": 0.2739
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut Brown",
+      "hex": "#6D5C4C",
+      "role": "辅色",
+      "share": 0.1924
+    },
+    {
+      "name_zh": "暖灰白",
+      "name_en": "Warm Grey White",
+      "hex": "#BBB6B3",
+      "role": "背景",
+      "share": 0.0904
+    },
+    {
+      "name_zh": "深炭黑",
+      "name_en": "Deep Charcoal",
+      "hex": "#291E1B",
+      "role": "点缀",
+      "share": 0.0856
+    },
+    {
+      "name_zh": "米白",
+      "name_en": "Off White",
+      "hex": "#E1E0E1",
+      "role": "背景",
+      "share": 0.0458
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "低矮平台床",
+      "item_en": "low platform bed",
+      "material_zh": "布艺软包",
+      "material_en": "upholstered fabric",
+      "color_zh": "藏蓝",
+      "color_en": "navy blue",
+      "note_zh": "落地无床脚，浅蓝被褥"
+    },
+    {
+      "item_zh": "书桌",
+      "item_en": "desk",
+      "material_zh": "木质烤漆",
+      "material_en": "lacquered wood",
+      "color_zh": "白",
+      "color_en": "white",
+      "note_zh": "靠窗悬挑桌面"
+    },
+    {
+      "item_zh": "靠背椅",
+      "item_en": "chair",
+      "material_zh": "实木",
+      "material_en": "solid wood",
+      "color_zh": "浅原木",
+      "color_en": "light wood",
+      "note_zh": "弧形靠背圆座面"
+    },
+    {
+      "item_zh": "圆柱床头柜",
+      "item_en": "cylindrical nightstand",
+      "material_zh": "塑料/烤漆",
+      "material_en": "molded lacquer",
+      "color_zh": "白",
+      "color_en": "white",
+      "note_zh": "双抽屉黑色圆拉手"
+    },
+    {
+      "item_zh": "矮柜长几",
+      "item_en": "low console shelf",
+      "material_zh": "木饰面",
+      "material_en": "wood veneer",
+      "color_zh": "红棕",
+      "color_en": "reddish brown",
+      "note_zh": "床头开放式收纳格"
+    },
+    {
+      "item_zh": "带轮收纳柜",
+      "item_en": "rolling cabinet",
+      "material_zh": "烤漆板",
+      "material_en": "lacquered panel",
+      "color_zh": "白",
+      "color_en": "white",
+      "note_zh": "底部黑色万向轮"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "金属折臂台灯",
+        "type_en": "metal swing-arm desk lamp",
+        "material_zh": "金属",
+        "position_zh": "书桌左侧"
+      },
+      {
+        "type_zh": "纸灯笼台灯",
+        "type_en": "paper lantern table lamp",
+        "material_zh": "和纸+金属支架",
+        "position_zh": "床头矮几上"
+      },
+      {
+        "type_zh": "裸灯泡吸顶灯",
+        "type_en": "bare bulb ceiling light",
+        "material_zh": "玻璃",
+        "position_zh": "天花中央"
+      }
+    ],
+    "mood_zh": "白天柔和自然光，自左侧窗户漫射入内，整体暖调安静",
+    "mood_en": "soft diffuse daylight from left window, warm calm ambience",
+    "time_of_day": "白天",
+    "direction_zh": "左侧窗光",
+    "color_temp": "4000K 暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "被褥",
+      "item_en": "duvet",
+      "fabric_zh": "棉",
+      "fabric_en": "cotton",
+      "color_zh": "浅蓝白",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "床基软包",
+      "item_en": "bed base upholstery",
+      "fabric_zh": "棉麻",
+      "fabric_en": "cotton-linen",
+      "color_zh": "藏蓝",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "几何地毯",
+      "item_en": "geometric rug",
+      "fabric_zh": "羊毛",
+      "fabric_en": "wool",
+      "color_zh": "米白+黑",
+      "pattern_zh": "黑色菱形折线带流苏"
+    },
+    {
+      "item_zh": "编织地垫",
+      "item_en": "woven mat",
+      "fabric_zh": "黄麻",
+      "fabric_en": "jute",
+      "color_zh": "米驼",
+      "pattern_zh": "素织"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "木地板",
+      "name_en": "wood flooring",
+      "where_zh": "地面"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "latex paint",
+      "where_zh": "墙面与天花"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "圆形挂钟",
+      "item_en": "round wall clock"
+    },
+    {
+      "item_zh": "小幅照片墙贴",
+      "item_en": "small photo prints"
+    },
+    {
+      "item_zh": "叠放书籍",
+      "item_en": "stacked books"
+    },
+    {
+      "item_zh": "毛绒玩偶",
+      "item_en": "plush toy"
+    },
+    {
+      "item_zh": "窗台小闹钟",
+      "item_en": "small sill clock"
+    },
+    {
+      "item_zh": "玻璃水杯",
+      "item_en": "glass cup"
+    }
+  ],
+  "space": {
+    "room_zh": "卧室",
+    "room_en": "Bedroom",
+    "structure_zh": "白乳胶漆墙、浅木地板、平顶带石膏线，左侧黑框窗配白色百叶帘，右侧床区有梁柱凹龛"
+  },
+  "camera": {
+    "view_zh": "平视",
+    "shot_zh": "全景",
+    "light_desc_zh": "左侧窗自然漫射光，柔和无硬影",
+    "quality_zh": "高清真实室内摄影，暖调细腻"
+  },
+  "prompt_en": "japandi wabi-sabi bedroom, low navy platform bed with pale blue cotton duvet, white desk and light wood chair, white cylindrical two-drawer nightstand, reddish walnut low console, white rolling cabinet, metal desk lamp and akari paper lantern, bare ceiling bulb, wool rug with black diamond pattern and fringe, jute woven mat, palette #907F6C #A79785 #6D5C4C #BBB6B3 #291E1B #E1E0E1, wood flooring and latex paint walls, black frame window with white blinds, soft left daylight, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "日式侘寂原木风卧室，藏蓝落地平台床配浅蓝棉被，白书桌与原木椅，白色双抽圆柱床头柜，红棕矮几，纸灯笼台灯与金属台灯，黑菱纹流苏羊毛地毯，黄麻垫，暖橡木与米灰配色，木地板白墙百叶窗，左侧柔和自然光，高清真实室内摄影，3:4竖构图。",
+  "prompt_short_en": "japandi wabi-sabi bedroom, low navy bed, warm oak and greige palette, paper lantern, daylight",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "日式侘寂",
+    "原木风",
+    "卧室",
+    " platform床",
+    "纸灯笼",
+    "羊毛地毯",
+    "暖橡木",
+    "藏蓝",
+    "百叶帘",
+    "极简"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

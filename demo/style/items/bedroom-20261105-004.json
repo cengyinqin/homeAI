@@ -1,0 +1,253 @@
+{
+  "style": {
+    "primary_zh": "北欧",
+    "primary_en": "Nordic",
+    "secondary_zh": [
+      "日式侘寂",
+      "中古现代"
+    ],
+    "confidence": 0.72,
+    "key_phrases_en": [
+      "playful Nordic eclectic",
+      "low pallet bed",
+      "wabi-sabi concrete beam",
+      "bold primary color accents",
+      "paper globe pendant"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖灰麻色",
+      "name_en": "warm greige linen",
+      "hex": "#B4AB9C",
+      "role": "主色",
+      "share": 0.2489
+    },
+    {
+      "name_zh": "灰褐水泥",
+      "name_en": "taupe concrete",
+      "hex": "#90887C",
+      "role": "辅色",
+      "share": 0.2233
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "walnut brown",
+      "hex": "#6F6358",
+      "role": "辅色",
+      "share": 0.1846
+    },
+    {
+      "name_zh": "米白乳胶漆",
+      "name_en": "off-white latex",
+      "hex": "#D5D0C6",
+      "role": "背景",
+      "share": 0.1598
+    },
+    {
+      "name_zh": "深苔绿",
+      "name_en": "deep moss green",
+      "hex": "#3A4342",
+      "role": "背景",
+      "share": 0.0933
+    },
+    {
+      "name_zh": "墨黑铁",
+      "name_en": "near-black iron",
+      "hex": "#151E19",
+      "role": "点缀",
+      "share": 0.0901
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "木托盘落地床",
+      "item_en": "low wooden pallet bed",
+      "material_zh": "原木",
+      "material_en": "solid pine wood",
+      "color_zh": "浅木色",
+      "color_en": "light wood",
+      "note_zh": "床架由木托盘拼成，贴地低矮"
+    },
+    {
+      "item_zh": "圆形餐桌",
+      "item_en": "round dining table",
+      "material_zh": " laminate 桌面+金属腿",
+      "material_en": "laminate top with chrome legs",
+      "color_zh": "米白",
+      "color_en": "cream",
+      "note_zh": "绿色封边，星形金属脚"
+    },
+    {
+      "item_zh": "蓝色弯木凳",
+      "item_en": "blue bentwood stool",
+      "material_zh": "弯曲木",
+      "material_en": "bentwood",
+      "color_zh": "钴蓝",
+      "color_en": "cobalt blue",
+      "note_zh": "三腿弧形凳腿"
+    },
+    {
+      "item_zh": "蓝色铁丝边几",
+      "item_en": "blue wire side table",
+      "material_zh": "金属铁丝",
+      "material_en": "powder-coated steel wire",
+      "color_zh": "钴蓝",
+      "color_en": "cobalt blue",
+      "note_zh": "网格面，下层斜放杂志"
+    },
+    {
+      "item_zh": "木质花架凳",
+      "item_en": "wooden plant stand stool",
+      "material_zh": "实木",
+      "material_en": "solid wood",
+      "color_zh": "原木棕",
+      "color_en": "natural wood brown",
+      "note_zh": "四腿圆凳承托花盆"
+    },
+    {
+      "item_zh": "圆形小边几",
+      "item_en": "small round side table",
+      "material_zh": "木+金属",
+      "material_en": "wood top metal stem",
+      "color_zh": "浅木色",
+      "color_en": "light wood",
+      "note_zh": "床头摆放鸟形摆件"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "球形纸吊灯",
+        "type_en": "paper globe pendant lamp",
+        "material_zh": "和纸",
+        "position_zh": "床与桌之间天花垂下"
+      },
+      {
+        "type_zh": "蘑菇形台灯",
+        "type_en": "mushroom table lamp",
+        "material_zh": "塑料/玻璃",
+        "position_zh": "床尾毛皮垫上"
+      }
+    ],
+    "mood_zh": "白天柔和自然光，自右侧落地窗漫射入内，整体明亮偏暖",
+    "mood_en": "soft diffused daylight from right sliding window, bright and warm",
+    "time_of_day": "白天",
+    "direction_zh": "右侧窗光",
+    "color_temp": "4500K 中性偏暖"
+  },
+  "textiles": [
+    {
+      "item_zh": "条纹床品",
+      "item_en": "striped bedding",
+      "fabric_zh": "棉",
+      "fabric_en": "cotton",
+      "color_zh": "白底红蓝细条",
+      "pattern_zh": "细条纹"
+    },
+    {
+      "item_zh": "格纹地毯",
+      "item_en": "checkered rug",
+      "fabric_zh": "平织羊毛",
+      "fabric_en": "flatweave wool",
+      "color_zh": "白绿红",
+      "pattern_zh": "格纹"
+    },
+    {
+      "item_zh": "黄色针织盖毯",
+      "item_en": "yellow knit throw",
+      "fabric_zh": "棉针织",
+      "fabric_en": "knit cotton",
+      "color_zh": "明黄",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "羊毛皮垫",
+      "item_en": "sheepskin rug",
+      "fabric_zh": "羊毛皮",
+      "fabric_en": "sheepskin",
+      "color_zh": "米粉",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "绿色窗帘",
+      "item_en": "green curtain",
+      "fabric_zh": "丝绒/厚棉",
+      "fabric_en": "velvet heavy cotton",
+      "color_zh": "深苔绿",
+      "pattern_zh": "纯色"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "清水混凝土",
+      "name_en": "exposed concrete",
+      "where_zh": "天花横梁"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "latex paint",
+      "where_zh": "墙面与柜门"
+    },
+    {
+      "name_zh": "微水泥",
+      "name_en": "microcement",
+      "where_zh": "地面"
+    },
+    {
+      "name_zh": "原木",
+      "name_en": "solid wood",
+      "where_zh": "床托盘与花架"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "床头条纹挂画",
+      "item_en": "framed striped art print"
+    },
+    {
+      "item_zh": "天堂鸟盆栽",
+      "item_en": "potted bird of paradise plant"
+    },
+    {
+      "item_zh": "悬挂空气凤梨",
+      "item_en": "hanging air plant"
+    },
+    {
+      "item_zh": "鸟形摆件",
+      "item_en": "bird figurine"
+    },
+    {
+      "item_zh": "杂志与马克杯",
+      "item_en": "magazines and mug"
+    }
+  ],
+  "space": {
+    "room_zh": "卧室",
+    "room_en": "Bedroom",
+    "structure_zh": "白乳胶漆墙、微水泥地、清水混凝土横梁顶，右侧落地推拉玻璃门通阳台，左有门洞连厨房走廊"
+  },
+  "camera": {
+    "view_zh": "平视微俯",
+    "shot_zh": "全景",
+    "light_desc_zh": "右侧窗自然漫射光，柔和无硬影",
+    "quality_zh": "胶片感细腻真实，色彩明快"
+  },
+  "prompt_en": "Nordic eclectic bedroom with wabi-sabi concrete beam, low wooden pallet bed with striped cotton bedding, round cream table, cobalt blue bentwood stool, blue wire side table, paper globe pendant lamp, orange mushroom lamp, green-red checkered wool rug, yellow knit throw, sheepskin, deep green curtain, palette #B4AB9C #90887C #6F6358 #D5D0C6 #3A4342 #151E19, exposed concrete and microcement and latex walls, soft right-side daylight, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "北欧混搭侘寂卧室，清水混凝土横梁，木托盘落地床配条纹棉床品，米白圆桌与钴蓝弯木凳，蓝色铁丝边几，球形纸吊灯与橙色蘑菇灯，绿红格纹羊毛地毯，黄针织毯与深绿窗帘，右侧窗柔和自然光，胶片质感。",
+  "prompt_short_en": "Nordic wabi-sabi bedroom, pallet bed, paper globe lamp, cobalt blue accents, greige and moss palette",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "北欧",
+    "侘寂",
+    "清水混凝土",
+    "木托盘床",
+    "纸吊灯",
+    "钴蓝",
+    "格纹地毯",
+    "卧室",
+    "微水泥"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

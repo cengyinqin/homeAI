@@ -1,0 +1,261 @@
+{
+  "style": {
+    "primary_zh": "奶油风",
+    "primary_en": "Cream style",
+    "secondary_zh": [
+      "原木风",
+      "北欧"
+    ],
+    "confidence": 0.85,
+    "key_phrases_en": [
+      "cream tone living room",
+      "boucle sofa",
+      "light oak floor",
+      "black framed glass partition",
+      "warm minimalist"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "奶油米棕",
+      "name_en": "Cream beige",
+      "hex": "#D8B99B",
+      "role": "主色",
+      "share": 0.3651
+    },
+    {
+      "name_zh": "浅驼木色",
+      "name_en": "Light camel wood",
+      "hex": "#C3A381",
+      "role": "辅色",
+      "share": 0.3037
+    },
+    {
+      "name_zh": "原木棕",
+      "name_en": "Oak brown",
+      "hex": "#B4844E",
+      "role": "辅色",
+      "share": 0.1732
+    },
+    {
+      "name_zh": "暖白灰",
+      "name_en": "Warm white grey",
+      "hex": "#D3D4D2",
+      "role": "背景",
+      "share": 0.0673
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut brown",
+      "hex": "#6A5037",
+      "role": "点缀",
+      "share": 0.0599
+    },
+    {
+      "name_zh": "雾灰",
+      "name_en": "Mist grey",
+      "hex": "#9DA1A2",
+      "role": "背景",
+      "share": 0.0308
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "布艺沙发",
+      "item_en": "Fabric sofa",
+      "material_zh": "羊羔绒",
+      "material_en": "Boucle",
+      "color_zh": "奶油白",
+      "color_en": "Cream white",
+      "note_zh": "圆润模块造型带流苏抱枕"
+    },
+    {
+      "item_zh": "电视柜",
+      "item_en": "TV console",
+      "material_zh": "烤漆板",
+      "material_en": "Lacquered board",
+      "color_zh": "暖白",
+      "color_en": "Warm white",
+      "note_zh": "悬浮式无拉手抽屉"
+    },
+    {
+      "item_zh": "展示架",
+      "item_en": "Display shelf",
+      "material_zh": "原木",
+      "material_en": "Solid wood",
+      "color_zh": "浅木色",
+      "color_en": "Light wood",
+      "note_zh": "三层摆放毛绒玩具"
+    },
+    {
+      "item_zh": "单人椅",
+      "item_en": "Armchair",
+      "material_zh": "布艺",
+      "material_en": "Fabric",
+      "color_zh": "鹅黄",
+      "color_en": "Pale yellow",
+      "note_zh": "玻璃隔断后可见"
+    },
+    {
+      "item_zh": "落地灯",
+      "item_en": "Floor lamp",
+      "material_zh": "金属+布罩",
+      "material_en": "Metal and fabric shade",
+      "color_zh": "米白",
+      "color_en": "Off white",
+      "note_zh": "锥形灯罩沙发旁"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "轨道射灯",
+        "type_en": "Track spotlight",
+        "material_zh": "白色金属",
+        "position_zh": "天花左侧轨道"
+      },
+      {
+        "type_zh": "明装筒灯",
+        "type_en": "Surface spotlight",
+        "material_zh": "白色金属",
+        "position_zh": "天花中部及电视墙上方"
+      },
+      {
+        "type_zh": "落地灯",
+        "type_en": "Floor lamp",
+        "material_zh": "布罩金属杆",
+        "position_zh": "沙发左端"
+      }
+    ],
+    "mood_zh": "白天柔和暖光，左侧窗光与顶部射灯混合，光线均匀偏暖",
+    "mood_en": "Soft warm daylight mixed with ceiling spotlights, even warm ambient",
+    "time_of_day": "白天",
+    "direction_zh": "左侧窗光为主",
+    "color_temp": "3500K 暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "沙发布",
+      "item_en": "Sofa upholstery",
+      "fabric_zh": "羊羔绒",
+      "fabric_en": "Boucle",
+      "color_zh": "奶油白",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "针织盖毯",
+      "item_en": "Knit throw",
+      "fabric_zh": "棉针织",
+      "fabric_en": "Cotton knit",
+      "color_zh": "浅驼",
+      "pattern_zh": "纯色带流苏"
+    },
+    {
+      "item_zh": "抱枕",
+      "item_en": "Throw pillow",
+      "fabric_zh": "棉麻",
+      "fabric_en": "Cotton linen",
+      "color_zh": "米底彩点",
+      "pattern_zh": "彩色细点流苏边"
+    },
+    {
+      "item_zh": "抱枕",
+      "item_en": "Throw pillow",
+      "fabric_zh": "棉",
+      "fabric_en": "Cotton",
+      "color_zh": "鹅黄",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "地毯",
+      "item_en": "Rug",
+      "fabric_zh": "短绒",
+      "fabric_en": "Short pile",
+      "color_zh": "米白",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "窗帘",
+      "item_en": "Curtain",
+      "fabric_zh": "棉麻",
+      "fabric_en": "Cotton linen",
+      "color_zh": "米色",
+      "pattern_zh": "纯色竖纹"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "木地板",
+      "name_en": "Wood flooring",
+      "where_zh": "地面"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "Latex paint",
+      "where_zh": "墙面与天花"
+    },
+    {
+      "name_zh": "黑铁",
+      "name_en": "Black iron",
+      "where_zh": "玻璃隔断框"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "龟背竹绿植",
+      "item_en": "Monstera plant"
+    },
+    {
+      "item_zh": "毛绒玩具",
+      "item_en": "Plush toys"
+    },
+    {
+      "item_zh": "南瓜抱枕摆件",
+      "item_en": "Pumpkin cushion"
+    },
+    {
+      "item_zh": "藤编篮",
+      "item_en": "Woven basket"
+    },
+    {
+      "item_zh": "梨形小夜灯",
+      "item_en": "Pear shaped lamp"
+    },
+    {
+      "item_zh": "相框",
+      "item_en": "Picture frame"
+    },
+    {
+      "item_zh": "电视卡通画面",
+      "item_en": "TV cartoon display"
+    }
+  ],
+  "space": {
+    "room_zh": "客厅",
+    "room_en": "Living room",
+    "structure_zh": "暖白乳胶漆墙顶，浅木地板，左侧黑框玻璃推拉隔断通阳台，中部门洞通卧室，右侧电视墙"
+  },
+  "camera": {
+    "view_zh": "平视微俯",
+    "shot_zh": "全景",
+    "light_desc_zh": "左侧自然光加顶部暖射灯，柔和均匀",
+    "quality_zh": "高清真实室内摄影质感"
+  },
+  "prompt_en": "Cream style living room, warm minimalist, round boucle cream sofa, floating white TV console, light wood display shelf with plush toys, pale yellow armchair behind black framed glass partition, white track spotlights and surface ceiling lights, fabric shade floor lamp, knit camel throw, dotted fringe pillow, off white rug, beige linen curtain, palette #D8B99B #C3A381 #B4844E #D3D4D2 #6A5037 #9DA1A2, light oak flooring, latex paint walls, black iron glass frame, soft warm daylight from left, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "奶油风客厅，圆润羊羔绒米白沙发，悬浮白色电视柜，原木展示架摆毛绒玩具，黑框玻璃隔断后可见鹅黄单椅，白色轨道射灯与落地灯，驼色针织毯与彩点流苏抱枕，米白地毯，浅木地板暖白墙，左侧柔和暖光，真实室内摄影质感。",
+  "prompt_short_en": "Cream style living room, boucle sofa, light oak floor, warm beige palette",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "奶油风",
+    "原木风",
+    "客厅",
+    "羊羔绒沙发",
+    "黑框玻璃隔断",
+    "浅木地板",
+    "暖白",
+    "轨道射灯",
+    "毛绒玩具"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

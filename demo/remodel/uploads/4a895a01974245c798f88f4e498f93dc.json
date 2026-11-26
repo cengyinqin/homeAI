@@ -1,0 +1,85 @@
+{
+  "schema_version": 4,
+  "room_type_en": "living room",
+  "shape_en": "rectangular, wider than deep",
+  "ceiling_en": "flat plain white ceiling at standard 2.8 m height, no beams or dropped sections",
+  "walls_en": "flat painted white walls, one continuous plane per side, low skirting at floor",
+  "floor_en": "continuous wood-plank floor plane, no steps or level changes",
+  "geometry": {
+    "room_type_en": "living room",
+    "shape_en": "rectangular, wider than deep",
+    "width_m": 4.5,
+    "depth_m": 3.6,
+    "ceiling_m": 2.8,
+    "floor_level_changes": false
+  },
+  "openings": [
+    {
+      "side": "left",
+      "type": "floor-to-ceiling window / balcony door wall",
+      "width_m": 2.6,
+      "height_m": 2.4,
+      "sill_m": 0.0,
+      "center_offset_fraction": 0.5,
+      "detail": "full-height glazed opening behind floor-length curtains, slim frame, spans most of the left wall"
+    }
+  ],
+  "openings_total": 1,
+  "camera": {
+    "height_m": 1.5,
+    "distance_to_far_wall_m": 4.0,
+    "lens_mm": 24.0,
+    "tilt_deg": -5.0,
+    "horizon_fraction": 0.42,
+    "perspective": "two-point, angled toward the front-left corner"
+  },
+  "framing": {},
+  "framing_valid": false,
+  "framing_note": "floor_top_y 与 ceiling_bottom_y 的高度差小于 0.25",
+  "fixed_features": [
+    {
+      "key": "skirting board",
+      "detail": "low painted skirting along base of walls"
+    },
+    {
+      "key": "wall-mounted air-conditioner",
+      "detail": "split-type indoor unit high on the long right wall near the left corner"
+    },
+    {
+      "key": "electrical distribution box",
+      "detail": "recessed labelled panel high on the right wall"
+    },
+    {
+      "key": "low wall access panel",
+      "detail": "small recessed labelled box low on the right wall"
+    },
+    {
+      "key": "ceiling light fittings",
+      "detail": "two round flush-mounted ceiling fixtures"
+    }
+  ],
+  "camera_en": "camera at 1.5 m height, two-point perspective angled toward the front-left corner, slight downward tilt, 24 mm equivalent wide lens",
+  "light_en": "main daylight from the left full-height glazed opening, soft fill from ceiling fixtures",
+  "structure_en": "Living room, rectangular, wider than deep, 4.5 m x 3.6 m; ceiling 2.8 m; continuous floor with no level changes. Left floor-to-ceiling window / balcony door wall 2.6 x 2.4 m, sill 0 m, 50% along the wall. Camera 1.5 m high, 4 m to the far wall, 24 mm lens, tilt -5 degrees, horizon 42% of frame height. The number of openings is exactly 1; do not add or remove any opening. Fixed features that stay: skirting board: low painted skirting along base of walls; wall-mounted air-conditioner: split-type indoor unit high on the long right wall near the left corner; electrical distribution box: recessed labelled panel high on the right wall; low wall access panel: small recessed labelled box low on the right wall; ceiling light fittings: two round flush-mounted ceiling fixtures.",
+  "structure_en_model": "The space is a rectangular living room, wider than deep, with a flat plain white ceiling at about 2.8 m and a continuous wood-plank floor with no level changes. Two wall planes are visible meeting at a front-left corner: the left wall carries a single full-height glazed window or balcony-door opening spanning most of its width, while the long right wall is a continuous painted plane with low skirting, a high wall-mounted split air-conditioner near the corner, a recessed distribution panel high up and a small access box lower down. Two round flush ceiling fittings are installed. The camera sits at 1.5 m with a 24 mm wide lens, two-point perspective toward the corner and a slight downward tilt.",
+  "immovable_zh": [
+    "左墙落地窗/阳台门",
+    "平顶 2.8 米无吊顶",
+    "右墙壁挂空调内机",
+    "右墙配电箱体",
+    "木地板无高差"
+  ],
+  "movable_zh": [
+    "布艺沙发",
+    "茶几",
+    "圆餐桌",
+    "落地镜",
+    "冰箱",
+    "电视柜"
+  ],
+  "upload_id": "4a895a01974245c798f88f4e498f93dc",
+  "preview_url": "/remodel/uploads/4a895a01974245c798f88f4e498f93dc.jpg",
+  "model": "qwen4-max",
+  "vision_calls": 1,
+  "analyzed_at": "2026-11-16T15:50:21Z"
+}

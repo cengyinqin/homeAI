@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bedroom-20261105-001",
+    "name": "卧室灵感 01",
+    "style_primary_zh": "中古现代",
+    "model": "qwen-image-3.0-pro",
+    "size": "1080*1440",
+    "file": "samples/bedroom-20261105-001.png",
+    "bytes": 5363024,
+    "seconds": 77.1,
+    "source_local_path": "images/bedroom/bedroom_000_bedroom-20261105-001.jpg",
+    "prompt_en": "mid-century modern bedroom, minimalist white walls, low walnut platform bed with drawer storage and headboard niche, walnut nightstand with open book shelves, three-leg wooden stool, red modular metal cabinet with chrome trim, black swing-arm wall sconce with exposed bulb, recessed ceiling downlights, white mushroom lamp, white cotton duvet with rust thin stripes, navy woven wool rug, checkered platform mat, palette warm white #D9D3D0 greige #BDB2AC navy #3E475C light oak #AE8D6F rust #632B1C walnut #8C6B51, wood veneer and latex paint and oak flooring, soft diffused daylight from right, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+    "request_id": "609360b1-6a6c-4159-9d43-1809c5e3080e"
+  },
+  {
+    "id": "bedroom-20261105-003",
+    "name": "卧室灵感 03",
+    "style_primary_zh": "奶油风",
+    "model": "qwen-image-3.0-pro",
+    "size": "1080*1440",
+    "file": "samples/bedroom-20261105-003.png",
+    "bytes": 4816245,
+    "seconds": 72.6,
+    "source_local_path": "images/bedroom/bedroom_002_bedroom-20261105-003.jpg",
+    "prompt_en": "cream style minimalist bedroom, low floor bed with navy base, chrome metal side table, articulated silver floor lamp, spherical rice paper pendant, blue mushroom table lamp, blue-white striped cotton duvet and pillows, navy solid pillow, heart-shaped tufted wool rug, vertical blinds, palette #E2DACE #CDC1B0 #B3A189 #978165 #6A563F #131211, cream latex paint walls, herringbone oak floor, plaster cornice, soft warm daylight from left window, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+    "request_id": "1dfbf16f-c1a8-45bb-9022-aa21483306e4"
+  },
+  {
+    "id": "bedroom-20261105-009",
+    "name": "卧室灵感 09",
+    "style_primary_zh": "原木风",
+    "model": "qwen-image-3.0-pro",
+    "size": "1080*1440",
+    "file": "samples/bedroom-20261105-009.png",
+    "bytes": 5456072,
+    "seconds": 78.9,
+    "source_local_path": "images/bedroom/bedroom_008_bedroom-20261105-009.jpg",
+    "prompt_en": "cozy natural wood bedroom with nordic mid-century styling, low solid wood single bed with muted blue striped bedding, wood bedside table and foot bench, white side table, wood pegboard jewelry organizer, black arc floor lamp with pleated shade, red mushroom lamp, blue striped cotton duvet, sheer cream curtain, blue tufted letter rug over jute mat, palette warm wood tan #9A8266 deep espresso #221515 cream beige #CBB899 taupe #5C4E48 muted blue #647DB6, wood flooring and white latex walls, warm soft evening lamp light from left, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+    "request_id": "08980293-2a66-46fe-b6ce-fc8d97fb57d2"
+  }
+]

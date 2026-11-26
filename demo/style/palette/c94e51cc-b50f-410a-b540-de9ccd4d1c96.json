@@ -1,0 +1,46 @@
+{
+  "id": "c94e51cc-b50f-410a-b540-de9ccd4d1c96",
+  "hexes": [
+    "#857A6C",
+    "#715A47",
+    "#482E1D",
+    "#A29B91",
+    "#C4BEB4",
+    "#ECEAE4"
+  ],
+  "colors": [
+    {
+      "hex": "#857A6C",
+      "share": 0.3306,
+      "role": "主色"
+    },
+    {
+      "hex": "#715A47",
+      "share": 0.302,
+      "role": "辅色"
+    },
+    {
+      "hex": "#482E1D",
+      "share": 0.1792,
+      "role": "辅色"
+    },
+    {
+      "hex": "#A29B91",
+      "share": 0.0832,
+      "role": "点缀"
+    },
+    {
+      "hex": "#C4BEB4",
+      "share": 0.0744,
+      "role": "背景"
+    },
+    {
+      "hex": "#ECEAE4",
+      "share": 0.0306,
+      "role": "背景"
+    }
+  ],
+  "mean_luma": 113,
+  "warmth": "暖",
+  "aspect": "3:4"
+}

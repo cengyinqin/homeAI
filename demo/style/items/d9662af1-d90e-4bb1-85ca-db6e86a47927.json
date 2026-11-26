@@ -1,0 +1,269 @@
+{
+  "style": {
+    "primary_zh": "工业风",
+    "primary_en": "Industrial",
+    "secondary_zh": [
+      "中古现代",
+      "美式复古"
+    ],
+    "confidence": 0.82,
+    "key_phrases_en": [
+      "industrial loft",
+      "mid-century modern",
+      "retro pop posters",
+      "burnt orange velvet",
+      "exposed concrete",
+      "checkerboard pattern"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖灰褐水泥",
+      "name_en": "Warm taupe concrete",
+      "hex": "#967F6B",
+      "role": "主色",
+      "share": 0.2562
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut brown",
+      "hex": "#715D4B",
+      "role": "辅色",
+      "share": 0.2172
+    },
+    {
+      "name_zh": "深咖黑铁",
+      "name_en": "Dark espresso iron",
+      "hex": "#3B2C20",
+      "role": "辅色",
+      "share": 0.1697
+    },
+    {
+      "name_zh": "浅驼米灰",
+      "name_en": "Light camel greige",
+      "hex": "#BDA691",
+      "role": "背景",
+      "share": 0.1573
+    },
+    {
+      "name_zh": "奶油白砖",
+      "name_en": "Cream white brick",
+      "hex": "#E4D4C5",
+      "role": "背景",
+      "share": 0.1023
+    },
+    {
+      "name_zh": "焦糖橘丝绒",
+      "name_en": "Burnt orange velvet",
+      "hex": "#B2441A",
+      "role": "点缀",
+      "share": 0.0973
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "模块沙发",
+      "item_en": "Modular sofa",
+      "material_zh": "丝绒",
+      "material_en": "Velvet",
+      "color_zh": "焦糖橘",
+      "color_en": "Burnt orange",
+      "note_zh": "簇绒拉扣坐垫、圆润扶手"
+    },
+    {
+      "item_zh": "玻璃茶几",
+      "item_en": "Glass coffee table",
+      "material_zh": "玻璃+胡桃木",
+      "material_en": "Glass + walnut",
+      "color_zh": "透明+胡桃木棕",
+      "color_en": "Clear + walnut brown",
+      "note_zh": "异形三角玻璃面、雕塑感木底座"
+    },
+    {
+      "item_zh": "休闲椅",
+      "item_en": "Lounge chair",
+      "material_zh": "皮革+镀铬钢管",
+      "material_en": "Leather + chrome tube",
+      "color_zh": "黑",
+      "color_en": "Black",
+      "note_zh": "黑色皮面绷带、镀铬框架"
+    },
+    {
+      "item_zh": "边几",
+      "item_en": "Side table",
+      "material_zh": "烤漆木",
+      "material_en": "Lacquered wood",
+      "color_zh": "奶油白",
+      "color_en": "Cream white",
+      "note_zh": "雕塑感层叠圆台造型"
+    },
+    {
+      "item_zh": "唱片收纳架",
+      "item_en": "Record shelf",
+      "material_zh": "黑铁",
+      "material_en": "Black metal",
+      "color_zh": "黑",
+      "color_en": "Black",
+      "note_zh": "开放格收纳黑胶与音箱"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "轨道射灯",
+        "type_en": "Track spotlights",
+        "material_zh": "黑铁",
+        "position_zh": "顶部天花轨道"
+      },
+      {
+        "type_zh": "弧形落地灯",
+        "type_en": "Arc floor lamp",
+        "material_zh": "镀铬金属",
+        "position_zh": "沙发左侧"
+      },
+      {
+        "type_zh": "蘑菇台灯",
+        "type_en": "Mushroom table lamp",
+        "material_zh": "亮面塑料",
+        "position_zh": "白色边几上"
+      }
+    ],
+    "mood_zh": "白天柔和自然光从左侧钢窗洒入，地面形成窗格光影，暖调明亮",
+    "mood_en": "Soft daytime daylight from left steel windows, grid shadows on floor, warm and bright",
+    "time_of_day": "白天",
+    "direction_zh": "左侧窗光",
+    "color_temp": "4000K 暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "地毯",
+      "item_en": "Rug",
+      "fabric_zh": "羊毛",
+      "fabric_en": "Wool",
+      "color_zh": "黑白",
+      "pattern_zh": "棋盘格纹"
+    },
+    {
+      "item_zh": "抱枕",
+      "item_en": "Throw pillow",
+      "fabric_zh": "棉麻",
+      "fabric_en": "Cotton linen",
+      "color_zh": "黑白",
+      "pattern_zh": "棋盘格纹"
+    },
+    {
+      "item_zh": "抱枕",
+      "item_en": "Throw pillow",
+      "fabric_zh": "棉麻",
+      "fabric_en": "Cotton linen",
+      "color_zh": "米白",
+      "pattern_zh": "抽象线条"
+    },
+    {
+      "item_zh": "盖毯",
+      "item_en": "Throw blanket",
+      "fabric_zh": "针织羊毛",
+      "fabric_en": "Knit wool",
+      "color_zh": "米白",
+      "pattern_zh": "纯色针织"
+    },
+    {
+      "item_zh": "沙发布",
+      "item_en": "Sofa upholstery",
+      "fabric_zh": "丝绒",
+      "fabric_en": "Velvet",
+      "color_zh": "焦糖橘",
+      "pattern_zh": "纯色"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "白色文化砖",
+      "name_en": "White painted brick",
+      "where_zh": "背景墙"
+    },
+    {
+      "name_zh": "抛光水泥",
+      "name_en": "Polished concrete",
+      "where_zh": "地面"
+    },
+    {
+      "name_zh": "清水混凝土",
+      "name_en": "Exposed concrete",
+      "where_zh": "梁柱与天花"
+    },
+    {
+      "name_zh": "黑铁",
+      "name_en": "Black steel",
+      "where_zh": "窗框与轨道"
+    },
+    {
+      "name_zh": "金属风管",
+      "name_en": "Metal duct",
+      "where_zh": "顶部裸露管线"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "复古海报挂画",
+      "item_en": "Retro poster prints"
+    },
+    {
+      "item_zh": "琴叶榕绿植",
+      "item_en": "Fiddle leaf fig plant"
+    },
+    {
+      "item_zh": "龟背竹绿植",
+      "item_en": "Monstera plant"
+    },
+    {
+      "item_zh": "盆栽绿植",
+      "item_en": "Potted plant"
+    },
+    {
+      "item_zh": "书籍",
+      "item_en": "Books"
+    },
+    {
+      "item_zh": "棋盘格马克杯",
+      "item_en": "Checkered mug"
+    },
+    {
+      "item_zh": "琥珀玻璃花瓶干花",
+      "item_en": "Amber glass vase with dried flowers"
+    },
+    {
+      "item_zh": "黑胶唱片",
+      "item_en": "Vinyl records"
+    }
+  ],
+  "space": {
+    "room_zh": "客厅",
+    "room_en": "Living room",
+    "structure_zh": "白色文化砖背景墙、抛光水泥地、裸露混凝土梁柱与金属风管天花、左侧黑铁格栅落地窗"
+  },
+  "camera": {
+    "view_zh": "平视",
+    "shot_zh": "全景",
+    "light_desc_zh": "左侧自然光柔和铺洒，地面窗格投影",
+    "quality_zh": "高清写实、细节丰富"
+  },
+  "prompt_en": "industrial loft living room with mid-century modern and retro pop style, burnt orange velvet modular sofa with tufted seats, Noguchi-style glass coffee table on sculptural walnut base, black leather chrome lounge chair, cream sculptural side table, black metal record shelf, chrome arc floor lamp and orange mushroom lamp, black track spotlights, black-and-cream checkerboard wool rug, checkered and line-art pillows, knit throw, palette #967F6B #715D4B #3B2C20 #BDA691 #E4D4C5 #B2441A, white painted brick wall, polished concrete floor, exposed concrete beams and metal ducts, black steel grid windows, soft left daylight with window-grid shadows, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "工业风 Loft 客厅融合中古现代与复古波普，焦糖橘丝绒模块沙发、胡桃木底座玻璃茶几、黑皮镀铬休闲椅、奶油白边几，黑白棋盘格羊毛地毯与格纹抱枕，白色文化砖墙、抛光水泥地、裸露混凝土梁柱与金属风管、黑铁格栅窗，左侧柔和自然光洒入地面窗格光影，高清写实。",
+  "prompt_short_en": "Industrial loft living room, burnt orange velvet sofa, checkerboard rug, concrete and white brick.",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "工业风",
+    "中古现代",
+    "焦糖橘",
+    "丝绒沙发",
+    "棋盘格地毯",
+    "水泥地面",
+    "文化砖墙",
+    "玻璃茶几",
+    "复古海报",
+    "Loft客厅"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

@@ -1,0 +1,89 @@
+{
+  "gid": "72baa377faab17ee3bc4b191cbf603d4",
+  "item_id": "10a81a18ed0e477abaea3dbce34c6a26",
+  "created_at": "2026-11-17T01:00:19.436Z",
+  "mode": "img2img",
+  "style": "中古现代",
+  "model": "qwen-image-3.0-pro",
+  "prompt": "Renovate this exact room photograph. Keep the architecture exactly as in the input image: same wall planes, same opening positions and sizes, same ceiling height, same floor level, same camera position, same perspective, same framing and aspect ratio. Do not add, remove, resize or move any opening.\n\nThe input photograph shows: Living room, rectangular, wider than deep, 4 m x 3.5 m; ceiling 2.8 m; floor: large-format grey marble-look polished tiles laid in a square grid, continuous glossy floor plane, no steps or level changes. Left open doorway 0.9 x 2.05 m, sill 0 m, 50% along the wall. Front-right floor-to-ceiling sliding glass door 2.2 x 2.5 m, sill 0 m, 55% along the wall. Camera 1.5 m high, 3.5 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 2; do not add or remove any opening. Opening proportion: the opening covers about half the wall with solid wall on both sides. Fixed features that stay: ceiling cornice: plain white plaster cornice running along all wall-ceiling junctions; skirting board: white painted skirting, about 90 mm high, along all walls; wall access panel: flush white rectangular cover panel set low into the far wall; sliding door frame: black aluminium frame with two sliding leaves and a fixed transom above.\n\nLIGHTING DESIGN\nThe room is lit by one key light: daylight entering from the left and front-right opening(s). Every shadow in the room runs away from that wall.\nPractical fixtures are decorative only: at most two visible fixtures, warm 2700 K, low output. They do not cast shadows, do not add fill light, and do not glow.\nNo bloom, no halo, no light spill on the ceiling, no lens flare, no double shadows. The window stays readable, never blown to white.\nInterior exposure is balanced for the room, not for the view outside.\nStyle-specific lighting: an amber mushroom table lamp and an opal globe pendant are the only practical fixtures, and the daylight reveals boucle nap, walnut grain and linen weave.\nYou may change the lighting completely; the original photo's light is not a constraint.\nKeep window openings physically unchanged while changing what comes through them.\n\nFURNISHING AND DECOR\nInterior styling, in mid-century modern: Warm walnut-and-rust scheme: walnut #6B4A32, rust #A8542B, amber #D89855, cream greige #D6C7B4, espresso #2A1B12, haze blue #404D63. Low slatted walnut sideboards, channel-tufted velvet sofas, chrome tubular cantilever and cane chairs, glass-travertine pedestal tables. Mushroom dome lamps, globe and disc pendants, tripod paper lanterns, track spots. Persian, striped and geometric wool rugs, boucle, corduroy, vinyl records, terrazzo, brass, tapered legs.\nSeating: low channel-tufted rust velvet sofa, two cane and tubular steel lounge chairs, amber boucle ottoman; Table surfaces: glass top chrome coffee table, round travertine pedestal table, walnut writing table with brass task tray; Storage/display: slatted walnut sideboard with books and objects, open walnut shelf unit holding vinyl records and terrazzo bowls; Textiles: cream greige linen curtains, striped wool rug, small Persian wool runner, corduroy cushions and haze blue mohair throw; Appliances: turntable and compact espresso machine on the sideboard; Greenery: potted rubber plant, trailing pothos in a terrazzo pot, dried pampas stems in an amber vase; Wall decor: framed abstract amber print, round brass mirror, woven textile hanging, slim walnut wall shelf; Tabletop objects: stacked art books, brass candlesticks, ceramic espresso cups, smoked glass carafe, vinyl record sleeve; Lighting fixtures: orange mushroom table lamp, opal globe pendant. Furnish the room with a low channel-tufted rust velvet sofa, a slatted walnut sideboard, a glass-top chrome coffee table, two cane-and-tubular-steel lounge chairs, a round travertine pedestal table, and an orange mushroom lamp on a striped wool rug.\nDensity target: at least 12 distinct furnishing and decor items, at least 3 styled surfaces, 2 layered textiles per seating area.\n\nEverything in the original room except the architectural shell is replaced: all furniture, soft furnishings, light fittings, textiles, decor and colours are new.\n\nREALISM\nShot as an editorial interior photograph for a design magazine: 35 mm full-frame body, 24 mm tilt-shift kept level, natural imperfect surfaces - fabric wrinkles, curtain folds that are not perfectly symmetrical, faint scuffs on the skirting, real dust-free but lived-in tabletops, subtle sensor grain, gentle highlight rolloff. No retouching sheen, no HDR, no CGI, no archviz, no perfectly uniform material, no flawless symmetry, no plastic reflections.\n\nHorizontal 4:3 composition.\n\nAvoid: people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "negative": "people, text, watermark, logo, cartoon, illustration, CGI, 3d render, octane render, unreal engine, architectural visualization, archviz, showroom, plastic sheen, HDR glow, hdr, oversaturated colours, wide-angle distortion, fisheye, warped walls, extra doors, extra windows, extra wall panels, missing openings, changed room proportions, room widened, raised ceiling, duplicated furniture, floating furniture, blurry detail, flat lighting, duplicate light sources, mismatched shadow directions, multiple shadow directions, double shadows, bloom, glow halo around lamps, light spill on ceiling, blown out window, lens flare, mixed white balance, empty surfaces, showroom emptiness, cgi render, uniform flat materials, perfect symmetry, retouched glossy look, plastic reflections, plastic materials",
+  "score": 0.931,
+  "attempts": 1,
+  "size_requested": "1440*1080",
+  "size_final": "1600*1197",
+  "width": 1600,
+  "height": 1197,
+  "model_seconds": 163.0,
+  "total_seconds": 212.3,
+  "checks": [
+    {
+      "attempt": 1,
+      "score": 0.931,
+      "items": [
+        {
+          "key": "openings",
+          "ok": true,
+          "note": "Left open doorway and front-right black-framed sliding glass door with transom both present on correct walls."
+        },
+        {
+          "key": "count",
+          "ok": true,
+          "note": "Exactly two openings; none added or removed."
+        },
+        {
+          "key": "framing",
+          "ok": true,
+          "note": "Wall spans, ceiling/floor lines and main-opening width relative to its wall stay close to source; room not wider."
+        },
+        {
+          "key": "perspective",
+          "ok": true,
+          "note": "Two-point view angled to front-right corner preserved."
+        },
+        {
+          "key": "ceiling",
+          "ok": true,
+          "note": "Flat ceiling at same height with plain white cornice retained."
+        },
+        {
+          "key": "floor",
+          "ok": true,
+          "note": "Large-format grey marble-look polished tiles in square grid, continuous glossy plane, no level change."
+        },
+        {
+          "key": "fixed_features",
+          "ok": false,
+          "note": "Low flush white rectangular access panel on the far wall is gone (covered/removed by the sideboard); cornice, skirting and door frame otherwise intact."
+        },
+        {
+          "key": "storage",
+          "ok": true,
+          "note": "Open shelf/sideboard with visible books/records plus a console work surface at left."
+        },
+        {
+          "key": "lighting",
+          "ok": true,
+          "note": "Shadows run away from the window wall; window not blown out; practicals add glow without conflicting shadow direction."
+        },
+        {
+          "key": "richness",
+          "ok": true,
+          "note": "Well over 10 decor items and multiple styled surfaces (sideboard top, coffee table, shelf)."
+        },
+        {
+          "key": "realism",
+          "ok": true,
+          "note": "Visible weave, fabric nap, wood grain and tile reflections; reads as a photograph."
+        }
+      ],
+      "repair_en": "Restore the fixed_features: bring back the low flush white rectangular access panel on the far wall, repositioning the sideboard so the panel remains visible and unchanged.",
+      "error": "",
+      "finish_reason": "",
+      "usage": {},
+      "short_form": false
+    }
+  ],
+  "source_sid": "10a81a18ed0e477abaea3dbce34c6a26",
+  "job_id": "357b6e0403aa4f2a93f1219521b6cec1",
+  "note": ""
+}

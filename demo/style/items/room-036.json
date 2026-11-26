@@ -1,0 +1,244 @@
+{
+  "style": {
+    "primary_zh": "中古现代",
+    "primary_en": "Mid-century Modern",
+    "secondary_zh": [
+      "现代简约",
+      "意式极简"
+    ],
+    "confidence": 0.85,
+    "key_phrases_en": [
+      "mid-century modern dining room",
+      "walnut wood cabinetry",
+      "travertine pedestal table",
+      "chrome and leather chairs",
+      "warm earthy palette"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖米褐",
+      "name_en": "Warm Beige",
+      "hex": "#AF967F",
+      "role": "主色",
+      "share": 0.2796
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut Brown",
+      "hex": "#91735A",
+      "role": "辅色",
+      "share": 0.2327
+    },
+    {
+      "name_zh": "奶油米白",
+      "name_en": "Cream Off-white",
+      "hex": "#CCBCAE",
+      "role": "辅色",
+      "share": 0.1672
+    },
+    {
+      "name_zh": "深胡桃木",
+      "name_en": "Deep Walnut",
+      "hex": "#70513A",
+      "role": "背景",
+      "share": 0.1515
+    },
+    {
+      "name_zh": "咖啡褐",
+      "name_en": "Coffee Brown",
+      "hex": "#502F1E",
+      "role": "点缀",
+      "share": 0.1052
+    },
+    {
+      "name_zh": "浓咖黑",
+      "name_en": "Espresso Black",
+      "hex": "#28160F",
+      "role": "背景",
+      "share": 0.0638
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "圆形餐桌",
+      "item_en": "round dining table",
+      "material_zh": "洞石/大理石",
+      "material_en": "travertine marble",
+      "color_zh": "米白",
+      "color_en": "off-white",
+      "note_zh": "方形石柱底座"
+    },
+    {
+      "item_zh": "餐椅",
+      "item_en": "dining chair",
+      "material_zh": "镀铬钢管+皮革+实木",
+      "material_en": "chrome tube, leather, wood",
+      "color_zh": "黑座面+胡桃木靠背",
+      "color_en": "black seat, walnut backrest",
+      "note_zh": "圆柱形木质靠背横杆"
+    },
+    {
+      "item_zh": "餐边柜",
+      "item_en": "sideboard cabinet",
+      "material_zh": "胡桃木饰面",
+      "material_en": "walnut veneer",
+      "color_zh": "胡桃木棕",
+      "color_en": "walnut brown",
+      "note_zh": "横向抽屉与细长拉手"
+    },
+    {
+      "item_zh": "吊柜",
+      "item_en": "wall cabinet",
+      "material_zh": "哑光烤漆板",
+      "material_en": "matte lacquer panel",
+      "color_zh": "奶油米白",
+      "color_en": "cream off-white",
+      "note_zh": "无拉手平开门"
+    },
+    {
+      "item_zh": "休闲椅",
+      "item_en": "lounge chair",
+      "material_zh": "镀铬钢管+皮革带",
+      "material_en": "chrome tube, leather strap",
+      "color_zh": "白色",
+      "color_en": "white",
+      "note_zh": "绷带式座靠结构"
+    },
+    {
+      "item_zh": "开放书架",
+      "item_en": "open bookshelf",
+      "material_zh": "木质层板",
+      "material_en": "wood shelf",
+      "color_zh": "米白",
+      "color_en": "off-white",
+      "note_zh": "嵌入式多层陈列书籍"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "多层金属吊灯",
+        "type_en": "layered metal pendant",
+        "material_zh": "拉丝金属",
+        "position_zh": "餐桌正上方"
+      },
+      {
+        "type_zh": "轨道射灯",
+        "type_en": "track spotlight",
+        "material_zh": "黑色金属",
+        "position_zh": "天花板右侧"
+      },
+      {
+        "type_zh": "嵌入式筒灯",
+        "type_en": "recessed downlight",
+        "material_zh": "金属",
+        "position_zh": "天花板"
+      }
+    ],
+    "mood_zh": "柔和自然光，暖调均匀漫射",
+    "mood_en": "soft natural daylight, warm even diffusion",
+    "time_of_day": "白天",
+    "direction_zh": "左侧漫射光",
+    "color_temp": "3500K 暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "地毯",
+      "item_en": "area rug",
+      "fabric_zh": "羊毛",
+      "fabric_en": "wool",
+      "color_zh": "暗红",
+      "pattern_zh": "东方传统纹样"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "胡桃木饰面",
+      "name_en": "walnut veneer",
+      "where_zh": "餐边柜与左侧高柜"
+    },
+    {
+      "name_zh": "竖条瓷砖",
+      "name_en": "vertical stack tile",
+      "where_zh": "厨房背景墙"
+    },
+    {
+      "name_zh": "洞石",
+      "name_en": "travertine",
+      "where_zh": "餐桌台面与底座"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "latex paint",
+      "where_zh": "天花板与墙面"
+    },
+    {
+      "name_zh": "木地板",
+      "name_en": "wood flooring",
+      "where_zh": "地面"
+    },
+    {
+      "name_zh": "镀铬金属",
+      "name_en": "chrome metal",
+      "where_zh": "椅架"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "圆形挂钟",
+      "item_en": "round wall clock"
+    },
+    {
+      "item_zh": "格纹边框挂画",
+      "item_en": "checkered-border framed art"
+    },
+    {
+      "item_zh": "盆栽绿植",
+      "item_en": "potted green plant"
+    },
+    {
+      "item_zh": "琥珀色玻璃花瓶配枝条",
+      "item_en": "amber glass vase with branches"
+    },
+    {
+      "item_zh": "书籍",
+      "item_en": "books"
+    },
+    {
+      "item_zh": "咖啡机",
+      "item_en": "espresso machine"
+    },
+    {
+      "item_zh": "玻璃杯与青苹果",
+      "item_en": "glass cup and green apples"
+    }
+  ],
+  "space": {
+    "room_zh": "餐厅",
+    "room_en": "Dining room",
+    "structure_zh": "开放式餐厨一体，左侧胡桃木高柜，背景竖条瓷砖墙与吊柜，右侧嵌入书架，木地板平顶"
+  },
+  "camera": {
+    "view_zh": "平视",
+    "shot_zh": "全景",
+    "light_desc_zh": "左侧柔和自然光，暖调漫射",
+    "quality_zh": "高清写实室内摄影"
+  },
+  "prompt_en": "mid-century modern dining room, round travertine pedestal table, chrome tube chairs with black leather seats and walnut backrests, walnut sideboard, cream wall cabinets, white strap lounge chair, layered metal pendant, black track spotlight, red oriental wool rug, warm palette #AF967F #91735A #CCBCAE #70513A #502F1E #28160F, walnut veneer, vertical stack tile, travertine, wood floor, soft warm daylight from left, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "中古现代餐厅，洞石圆桌配镀铬黑皮餐椅与胡桃木靠背，胡桃木餐边柜与奶油吊柜，金属多层吊灯，暗红东方纹羊毛地毯，暖米褐与胡桃木棕配色，竖条瓷砖墙木地板，左侧柔和暖光，写实室内摄影。",
+  "prompt_short_en": "mid-century modern dining room, travertine table, walnut and chrome, warm beige brown palette",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "中古现代",
+    "餐厅",
+    "胡桃木",
+    "洞石餐桌",
+    "镀铬餐椅",
+    "暖色调",
+    "竖条瓷砖",
+    "木地板"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

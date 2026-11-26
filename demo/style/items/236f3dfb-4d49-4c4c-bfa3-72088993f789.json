@@ -1,0 +1,243 @@
+{
+  "style": {
+    "primary_zh": "中古现代",
+    "primary_en": "Mid-century Modern",
+    "secondary_zh": [
+      "奶油风",
+      "美式复古"
+    ],
+    "confidence": 0.72,
+    "key_phrases_en": [
+      "playful postmodern curves",
+      "sculptural retro furniture",
+      "bold orange and mustard accents",
+      "Memphis-inspired pop decor"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖咖棕",
+      "name_en": "Warm Taupe Brown",
+      "hex": "#6A564E",
+      "role": "主色",
+      "share": 0.3002
+    },
+    {
+      "name_zh": "灰褐粉",
+      "name_en": "Mauve Taupe",
+      "hex": "#9D837B",
+      "role": "辅色",
+      "share": 0.2545
+    },
+    {
+      "name_zh": "米杏色",
+      "name_en": "Cream Apricot",
+      "hex": "#C9B1A8",
+      "role": "辅色",
+      "share": 0.1298
+    },
+    {
+      "name_zh": "暖橘粉",
+      "name_en": "Warm Peach",
+      "hex": "#E29A75",
+      "role": "背景",
+      "share": 0.1157
+    },
+    {
+      "name_zh": "焦糖橘",
+      "name_en": "Caramel Orange",
+      "hex": "#AF4B1B",
+      "role": "点缀",
+      "share": 0.1118
+    },
+    {
+      "name_zh": "墨黑",
+      "name_en": "Ink Black",
+      "hex": "#231B1D",
+      "role": "背景",
+      "share": 0.088
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "三人沙发",
+      "item_en": "three-seat sofa",
+      "material_zh": "丝绒",
+      "material_en": "velvet",
+      "color_zh": "芥末黄",
+      "color_en": "mustard yellow",
+      "note_zh": "圆润卷臂低矮造型"
+    },
+    {
+      "item_zh": "异形茶几",
+      "item_en": "blob coffee table",
+      "material_zh": "烤漆",
+      "material_en": "lacquered",
+      "color_zh": "奶白",
+      "color_en": "cream white",
+      "note_zh": "云朵轮廓粗圆柱腿"
+    },
+    {
+      "item_zh": "雕塑边几",
+      "item_en": "sculptural side table",
+      "material_zh": "烤漆树脂",
+      "material_en": "lacquered resin",
+      "color_zh": "亮橘",
+      "color_en": "glossy orange",
+      "note_zh": "层叠葫芦形底座"
+    },
+    {
+      "item_zh": "管状休闲椅",
+      "item_en": "tubular lounge chair",
+      "material_zh": "布艺包覆",
+      "material_en": "upholstered fabric",
+      "color_zh": "米白",
+      "color_en": "off-white",
+      "note_zh": "弯曲圆管框架结构"
+    },
+    {
+      "item_zh": "方形花盆",
+      "item_en": "square planter",
+      "material_zh": "哑光陶瓷",
+      "material_en": "matte ceramic",
+      "color_zh": "白",
+      "color_en": "white",
+      "note_zh": "落地高款栽绿植"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "飞碟吊灯",
+        "type_en": "saucer pendant lamp",
+        "material_zh": "磨砂玻璃",
+        "position_zh": "天花板中央"
+      },
+      {
+        "type_zh": "叠球纸落地灯",
+        "type_en": "stacked paper sphere floor lamp",
+        "material_zh": "纸",
+        "position_zh": "左侧窗边"
+      },
+      {
+        "type_zh": "蘑菇台灯",
+        "type_en": "mushroom table lamp",
+        "material_zh": "玻璃",
+        "position_zh": "茶几上"
+      },
+      {
+        "type_zh": "球形氛围灯",
+        "type_en": "spherical accent lamp",
+        "material_zh": "亚克力罩",
+        "position_zh": "橘色边几上"
+      }
+    ],
+    "mood_zh": "白天柔和自然光叠加暖橘人工光，左侧窗光偏软，整体暖调温馨",
+    "mood_en": "soft daytime daylight mixed with warm orange artificial glow, soft light from left windows, cozy warm ambience",
+    "time_of_day": "白天",
+    "direction_zh": "左侧窗光为主，顶部吊灯补暖光",
+    "color_temp": "3000K 暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "条纹地毯",
+      "item_en": "striped rug",
+      "fabric_zh": "羊毛",
+      "fabric_en": "wool",
+      "color_zh": "黑白",
+      "pattern_zh": "粗条纹"
+    },
+    {
+      "item_zh": "条纹抱枕",
+      "item_en": "striped pillow",
+      "fabric_zh": "棉",
+      "fabric_en": "cotton",
+      "color_zh": "橘白",
+      "pattern_zh": "竖条纹"
+    },
+    {
+      "item_zh": "格纹抱枕",
+      "item_en": "checkered pillow",
+      "fabric_zh": "棉",
+      "fabric_en": "cotton",
+      "color_zh": "红白",
+      "pattern_zh": "棋盘格"
+    },
+    {
+      "item_zh": "沙发布",
+      "item_en": "sofa upholstery",
+      "fabric_zh": "丝绒",
+      "fabric_en": "velvet",
+      "color_zh": "芥末黄",
+      "pattern_zh": "纯色"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "latex paint",
+      "where_zh": "暖米色墙面"
+    },
+    {
+      "name_zh": "木地板",
+      "name_en": "wood flooring",
+      "where_zh": "浅灰木色地面"
+    },
+    {
+      "name_zh": "石膏",
+      "name_en": "plaster",
+      "where_zh": "带肌理白色天花与横梁"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "锦鲤挂画",
+      "item_en": "koi fish framed print"
+    },
+    {
+      "item_zh": "抽象几何挂画",
+      "item_en": "abstract geometric framed prints"
+    },
+    {
+      "item_zh": "橘色波浪墙饰",
+      "item_en": "orange wavy wall sculpture"
+    },
+    {
+      "item_zh": "天堂鸟绿植",
+      "item_en": "bird of paradise plant"
+    },
+    {
+      "item_zh": "托盘小摆件",
+      "item_en": "tray with small objects"
+    }
+  ],
+  "space": {
+    "room_zh": "客厅",
+    "room_en": "Living room",
+    "structure_zh": "暖米色乳胶漆墙、浅木地板、带横梁肌理白顶，左侧白框门窗，右侧白门通向走廊与厨房"
+  },
+  "camera": {
+    "view_zh": "平视",
+    "shot_zh": "全景",
+    "light_desc_zh": "左侧柔和窗光与顶部暖橘吊灯混合，阴影柔软",
+    "quality_zh": "高清晰实景摄影质感，色彩饱满温暖"
+  },
+  "prompt_en": "playful mid-century modern living room with postmodern curves, mustard velvet low sofa with rolled arms, cream blob lacquered coffee table, glossy orange sculptural side table, off-white tubular lounge chair, saucer pendant lamp and stacked paper sphere floor lamp glowing warm, black and white striped wool rug, orange striped and red checkered pillows, palette warm taupe #6A564E, mauve #9D837B, cream #C9B1A8, peach #E29A75, caramel orange #AF4B1B, ink black #231B1D, latex paint walls and light wood floor, soft left daylight mixed warm glow, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "中古现代 playful 客厅，芥末黄丝绒卷臂沙发，奶白异形烤漆茶几，亮橘雕塑边几，米白管状椅，飞碟吊灯与叠球纸灯暖光，黑白条纹羊毛地毯配橘条纹红格抱枕，暖咖米杏橘黑配色，乳胶漆墙浅木地板，左侧柔光，实景摄影质感。",
+  "prompt_short_en": "playful mid-century living room, mustard velvet sofa, orange accents, striped rug, warm cream walls",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "中古现代",
+    "playful后现代",
+    "芥末黄丝绒沙发",
+    "橘色雕塑家具",
+    "黑白条纹地毯",
+    "纸灯",
+    "奶油墙",
+    "客厅",
+    "异形茶几",
+    "暖调"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}

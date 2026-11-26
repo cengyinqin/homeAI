@@ -1,0 +1,115 @@
+{
+  "item_id": "4a895a01974245c798f88f4e498f93dc",
+  "name": "客厅样板 · 北欧",
+  "created_at": "2026-11-16T15:50:21.169Z",
+  "updated_at": "2026-11-17T07:48:42.467Z",
+  "notes": "",
+  "default_style": "",
+  "default_mode": "img2img",
+  "source_current": "4a895a01974245c798f88f4e498f93dc",
+  "source_ids": [
+    "4a895a01974245c798f88f4e498f93dc"
+  ],
+  "cover_gen": null,
+  "structure": {
+    "schema_version": 4,
+    "room_type_en": "living room",
+    "shape_en": "rectangular, deeper than wide",
+    "ceiling_en": "flat plain white ceiling at standard 2.7 m height, no beams or dropped sections",
+    "walls_en": "flat white painted walls, one continuous plane on the long right side and a shorter curtain wall at the far end, painted skirting at floor",
+    "floor_en": "medium oak wood planks laid lengthwise toward the far wall, continuous single-level floor plane, no steps",
+    "geometry": {
+      "room_type_en": "living room",
+      "shape_en": "rectangular, deeper than wide",
+      "width_m": 3.6,
+      "depth_m": 4.5,
+      "ceiling_m": 2.7,
+      "floor_level_changes": false
+    },
+    "openings": [
+      {
+        "side": "front-left",
+        "type": "floor-to-ceiling window/sliding door behind curtains",
+        "width_m": 3.2,
+        "height_m": 2.4,
+        "sill_m": 0.0,
+        "center_offset_fraction": 0.5,
+        "detail": "full-height sheer and blackout curtains on a ceiling track conceal a glazed balcony door/window spanning most of the far wall"
+      }
+    ],
+    "openings_total": 1,
+    "camera": {
+      "height_m": 1.5,
+      "distance_to_far_wall_m": 4.0,
+      "lens_mm": 24.0,
+      "tilt_deg": -2.0,
+      "horizon_fraction": 0.45,
+      "perspective": "two-point, angled toward the front-left corner where the curtain wall meets the long right wall"
+    },
+    "framing": {
+      "front_wall_and_opening_span": {
+        "from_x": 0.0,
+        "to_x": 0.36
+      },
+      "right_wall_span": {
+        "from_x": 0.36,
+        "to_x": 1.0
+      },
+      "ceiling_bottom_y": 0.3,
+      "floor_top_y": 0.6,
+      "opening_width_over_wall_width": 0.9
+    },
+    "framing_valid": true,
+    "framing_note": "",
+    "fixed_features": [
+      {
+        "key": "skirting board",
+        "detail": "painted timber skirting along the base of the right wall, approx 80 mm high"
+      },
+      {
+        "key": "wall-mounted air-conditioner",
+        "detail": "split-type indoor unit high on the right wall near the far corner"
+      },
+      {
+        "key": "electrical distribution box",
+        "detail": "recessed metal panel high on the right wall"
+      },
+      {
+        "key": "weak-current box",
+        "detail": "small recessed low-voltage panel lower on the right wall"
+      },
+      {
+        "key": "installed ceiling fittings",
+        "detail": "flush round ceiling light and a recessed downlight near the curtain wall"
+      }
+    ],
+    "camera_en": "camera at 1.5 m height, two-point perspective angled toward the front-left corner, slight downward tilt, 24 mm equivalent wide lens",
+    "light_en": "daylight diffused through the curtained far glazing, supplemented by ceiling fixtures",
+    "structure_en": "Living room, rectangular, deeper than wide, 3.6 m x 4.5 m; ceiling 2.7 m; floor: medium oak wood planks laid lengthwise toward the far wall, continuous single-level floor plane, no steps. Front-left floor-to-ceiling window/sliding door behind curtains 3.2 x 2.4 m, sill 0 m, 50% along the wall. Camera 1.5 m high, 4 m to the far wall, 24 mm lens, tilt -2 degrees, horizon 45% of frame height. The number of openings is exactly 1; do not add or remove any opening. Opening proportion: the opening is nearly wall-to-wall, leaving only narrow piers at each end. Fixed features that stay: skirting board: painted timber skirting along the base of the right wall, approx 80 mm high; wall-mounted air-conditioner: split-type indoor unit high on the right wall near the far corner; electrical distribution box: recessed metal panel high on the right wall; weak-current box: small recessed low-voltage panel lower on the right wall; installed ceiling fittings: flush round ceiling light and a recessed downlight near the curtain wall.",
+    "structure_en_model": "The room is a rectangular living space, deeper than wide, with a flat plain white ceiling at about 2.7 m and no beams. A long continuous white painted wall runs along the right side, carrying a high wall-mounted split air-conditioner, a recessed electrical distribution panel and a lower weak-current box, with painted timber skirting at its base. The shorter far wall is almost fully glazed by a floor-to-ceiling balcony door or window concealed behind full-height curtains on a ceiling track. The floor is a single continuous plane of medium oak planks laid lengthwise toward the far wall, with no level changes. The camera sits at 1.5 m in two-point perspective angled toward the front-left corner.",
+    "immovable_zh": [
+      "左前方落地窗帘遮挡推拉门/窗",
+      "右侧长连续白墙",
+      "壁挂空调内机",
+      "强弱电箱",
+      "平顶2.7米无吊顶"
+    ],
+    "movable_zh": [
+      "布艺沙发",
+      "茶几",
+      "圆餐桌",
+      "冰箱",
+      "电视柜",
+      "落地镜"
+    ],
+    "model": "qwen4-max",
+    "analyzed_at": "2026-11-17T07:31:06Z"
+  },
+  "analysis_error": null,
+  "gens": [
+    "50cd1e5cab404b7ebac5a05d80b06017",
+    "5b88596780a6448998ff0b9d4cd2f9fc"
+  ],
+  "legacy_upload_id": "4a895a01974245c798f88f4e498f93dc",
+  "renamed_by_user": true
+}

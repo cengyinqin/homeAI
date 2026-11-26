@@ -1,0 +1,220 @@
+{
+  "style": {
+    "primary_zh": "中古现代",
+    "primary_en": "Mid-century Modern",
+    "secondary_zh": [
+      "北欧",
+      "现代简约"
+    ],
+    "confidence": 0.82,
+    "key_phrases_en": [
+      "walnut platform bed",
+      "swing-arm wall sconce",
+      "red modular cabinet",
+      "minimal white walls",
+      "light oak floor"
+    ]
+  },
+  "palette": [
+    {
+      "name_zh": "暖白",
+      "name_en": "Warm White",
+      "hex": "#D9D3D0",
+      "role": "主色",
+      "share": 0.4366
+    },
+    {
+      "name_zh": "灰米",
+      "name_en": "Greige",
+      "hex": "#BDB2AC",
+      "role": "辅色",
+      "share": 0.2053
+    },
+    {
+      "name_zh": "藏蓝",
+      "name_en": "Navy Blue",
+      "hex": "#3E475C",
+      "role": "辅色",
+      "share": 0.1522
+    },
+    {
+      "name_zh": "浅橡木",
+      "name_en": "Light Oak",
+      "hex": "#AE8D6F",
+      "role": "背景",
+      "share": 0.0983
+    },
+    {
+      "name_zh": "赭红棕",
+      "name_en": "Rust Red Brown",
+      "hex": "#632B1C",
+      "role": "点缀",
+      "share": 0.0624
+    },
+    {
+      "name_zh": "胡桃木棕",
+      "name_en": "Walnut Brown",
+      "hex": "#8C6B51",
+      "role": "背景",
+      "share": 0.0452
+    }
+  ],
+  "furniture": [
+    {
+      "item_zh": "地台床",
+      "item_en": "platform bed",
+      "material_zh": "胡桃木饰面",
+      "material_en": "walnut veneer",
+      "color_zh": "胡桃木棕",
+      "color_en": "walnut brown",
+      "note_zh": "床底抽屉收纳，床头板带壁龛"
+    },
+    {
+      "item_zh": "床头柜",
+      "item_en": "nightstand cabinet",
+      "material_zh": "胡桃木",
+      "material_en": "walnut wood",
+      "color_zh": "胡桃木棕",
+      "color_en": "walnut brown",
+      "note_zh": "开放格放书，下方藤编篮"
+    },
+    {
+      "item_zh": "三脚木凳",
+      "item_en": "three-leg wooden stool",
+      "material_zh": "实木",
+      "material_en": "solid wood",
+      "color_zh": "原木棕",
+      "color_en": "natural wood brown",
+      "note_zh": "圆凳面堆叠书籍"
+    },
+    {
+      "item_zh": "红色模块柜",
+      "item_en": "red modular cabinet",
+      "material_zh": "金属烤漆",
+      "material_en": "powder-coated metal",
+      "color_zh": "赭红",
+      "color_en": "rust red",
+      "note_zh": "镀铬边框与球形拉手"
+    }
+  ],
+  "lighting": {
+    "fixtures": [
+      {
+        "type_zh": "嵌入式筒灯",
+        "type_en": "recessed downlight",
+        "material_zh": "白色金属",
+        "position_zh": "天花顶面"
+      },
+      {
+        "type_zh": "摇臂壁灯",
+        "type_en": "swing-arm wall sconce",
+        "material_zh": "黑铁",
+        "position_zh": "床头右上方墙面，裸露灯泡"
+      },
+      {
+        "type_zh": "蘑菇台灯",
+        "type_en": "mushroom table lamp",
+        "material_zh": "白色玻璃",
+        "position_zh": "床头柜台面"
+      }
+    ],
+    "mood_zh": "白天柔和漫射光，自右侧门洞进入，整体明亮均匀偏暖",
+    "mood_en": "soft diffused daylight from right doorway, bright even warm ambience",
+    "time_of_day": "白天",
+    "direction_zh": "右侧",
+    "color_temp": "3500K 暖白"
+  },
+  "textiles": [
+    {
+      "item_zh": "被套与枕套",
+      "item_en": "duvet and pillowcases",
+      "fabric_zh": "棉",
+      "fabric_en": "cotton",
+      "color_zh": "白底赭红",
+      "pattern_zh": "细条纹"
+    },
+    {
+      "item_zh": "地毯",
+      "item_en": "area rug",
+      "fabric_zh": "羊毛编织",
+      "fabric_en": "woven wool",
+      "color_zh": "藏蓝",
+      "pattern_zh": "纯色"
+    },
+    {
+      "item_zh": "地台垫",
+      "item_en": "platform mat",
+      "fabric_zh": "棉麻",
+      "fabric_en": "cotton linen",
+      "color_zh": "灰白",
+      "pattern_zh": "格纹"
+    }
+  ],
+  "materials": [
+    {
+      "name_zh": "木饰面",
+      "name_en": "wood veneer",
+      "where_zh": "地台床与床头柜"
+    },
+    {
+      "name_zh": "乳胶漆",
+      "name_en": "latex paint",
+      "where_zh": "墙面与天花"
+    },
+    {
+      "name_zh": "木地板",
+      "name_en": "wood flooring",
+      "where_zh": "地面"
+    }
+  ],
+  "decor": [
+    {
+      "item_zh": "靠墙抽象挂画",
+      "item_en": "leaning abstract framed art"
+    },
+    {
+      "item_zh": "墙面小幅装饰画",
+      "item_en": "small framed wall prints"
+    },
+    {
+      "item_zh": "堆叠书籍",
+      "item_en": "stacked books"
+    },
+    {
+      "item_zh": "白色球形花器",
+      "item_en": "white spherical vase"
+    },
+    {
+      "item_zh": "小座钟",
+      "item_en": "small table clock"
+    }
+  ],
+  "space": {
+    "room_zh": "卧室",
+    "room_en": "Bedroom",
+    "structure_zh": "白色乳胶漆墙与平顶，浅橡木地板，右侧门洞通向走廊与采光窗"
+  },
+  "camera": {
+    "view_zh": "平视",
+    "shot_zh": "全景",
+    "light_desc_zh": "右侧自然漫射光，柔和无硬影",
+    "quality_zh": "高清写实，细腻木纹与织物质感"
+  },
+  "prompt_en": "mid-century modern bedroom, minimalist white walls, low walnut platform bed with drawer storage and headboard niche, walnut nightstand with open book shelves, three-leg wooden stool, red modular metal cabinet with chrome trim, black swing-arm wall sconce with exposed bulb, recessed ceiling downlights, white mushroom lamp, white cotton duvet with rust thin stripes, navy woven wool rug, checkered platform mat, palette warm white #D9D3D0 greige #BDB2AC navy #3E475C light oak #AE8D6F rust #632B1C walnut #8C6B51, wood veneer and latex paint and oak flooring, soft diffused daylight from right, photorealistic interior photography, natural daylight, high detail, 35mm lens, 3:4 vertical composition",
+  "prompt_zh": "中古现代卧室，白墙浅橡木地板，胡桃木地台床带抽屉收纳，胡桃木床头柜开放格放书，三脚木凳，红色金属模块柜镀铬边，黑铁摇臂壁灯，嵌入式筒灯，白底赭红细条纹棉床品，藏蓝羊毛地毯，格纹地台垫，右侧柔和自然光，写实高清。",
+  "prompt_short_en": "mid-century modern bedroom, walnut platform bed, navy rug, red cabinet, warm white walls",
+  "negative_en": "people, text, watermark, logo, distorted geometry, oversaturated colors, cartoon, CGI render, fisheye",
+  "tags_zh": [
+    "中古现代",
+    "卧室",
+    "胡桃木",
+    "地台床",
+    "藏蓝地毯",
+    "红色模块柜",
+    "摇臂壁灯",
+    "细条纹床品",
+    "浅橡木地板"
+  ],
+  "_model": "qwen4-max",
+  "_attempts": 1
+}
